@@ -1,4 +1,10 @@
+.l-body {
+  position: relative;
+}
+
 .l-header {
+  position: relative;
+  z-index: 20;
   background-color: #FEDA1C;
 }
 /*# sourceMappingURL=index.css.map */

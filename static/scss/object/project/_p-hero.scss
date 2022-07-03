@@ -1,0 +1,32 @@
+@use '../utility' as var;
+/*使用例.button { background-color: var.$colorGR;}*/
+
+.p-hero{
+  position: relative;
+  z-index: 0;
+  max-width: 100%;
+  height:0;
+  padding-bottom: 51.45%;
+}
+
+.c-picture__wrapper{/*写真のラッパー*/
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.c-picture--top{/*白い枠--電球の写真*/
+  position: absolute;
+  z-index: 20;
+  width: 63.88%;
+  height: 0;
+  padding-bottom: 42%;
+
+  background-color: #ffffff;
+}
+
+.c-light__jpg{/*電球の写真本体*/
+  position: absolute;
+  width: 91.3%;
+  margin: 38.5px 4.3%;
+}

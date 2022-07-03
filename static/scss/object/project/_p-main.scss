@@ -1,0 +1,25 @@
+@use '../utility' as var;
+/*使用例.button { background-color: var.$colorGR;}*/
+
+.video__wrapper{
+  width: 100%;
+}
+
+.video{/*背景に固定する*/
+  position: fixed;
+  z-index: -20;
+  top:-336px;
+  width: 136%;
+}
+
+.video__filter{
+  position: fixed;
+  width: 100%;
+  z-index: -10;
+  top: -136px;
+  width: 136%;
+  height: 136%;
+  opacity: 0.5;/*デザインは0.2*/
+  background-color: black;
+
+ }

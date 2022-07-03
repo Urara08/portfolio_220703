@@ -7,6 +7,8 @@
   <meta http-equiv="Cache-Control" content="no-cache">
   <title>URARA　ポートフォリオ</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- フォント（同梱の仕方確認要！）-->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Kaisei+Tokumin:wght@400;500;700;800&family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/script.js"></script>
 </head>
@@ -30,14 +32,26 @@
             <li class="p-header__menu__item"><h2><a href="#contact" class="c-item__title">ご連絡</a></h2></li>
           </ul>
         </menu>
-       </div><!-- p-header-header__wrapper閉じる-->
+       </div><!-- p-header__wrapper閉じる-->
       </div><!-- p-header閉じる-->
     </header><!--      l-header閉じる        -->
 
-      <main class="l-main">
-
-        <div class="l-hero">
+      <main class="p-main">
+          <!--ビデオここから-->
+          <div class="video__wrapper">
+          <video controls muted autoplay playsinline loop class="video"
+          src="./img/back-video.mp4"></video>
+          <div class="video__filter"></div>
+          </div>
+          <div class="l-hero">
           <section class="p-hero">
+
+        <div class="c-picture__wrapper">
+          <figure class="c-picture--top">
+          <img class="c-light__jpg"
+          src="./img/c-light.jpg" alt="電球の画像">
+          </figure>
+        </div>
           </section><!-- p-hero閉じる-->
         </div><!-- L-hero閉じる-->
 
@@ -60,10 +74,4 @@
           <div id="contact" class="p-contact">
           <form class="p-form">
           </form><!-- p-form閉じる-->
-        </div><!-- p-contact"閉じる-->
-        </div><!-- L-contact閉じる-->
-
-        </main><!-- main閉じる-->
-  </div><!-- l-body閉じる-->
-</body>
-</html>
+        </div><!-- p
