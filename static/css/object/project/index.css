@@ -4,5 +4,62 @@
 /*@forward "mixins";*/
 .button {
   background-color: #2ab733;
+} /*使用例.button { background-color: var.$colorGR;}*/
+.p-header {
+  height: 136px;
+  margin-right: 260px;
+  margin-left: 260px;
+  padding-top: 40px;
+  padding-bottom: 40.4px;
+  border: solid red 1px;
+}
+
+.p-header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid red 1px;
+}
+
+.p-header__title {
+  width: 6.04%;
+  margin-left: 40px;
+}
+
+.p-header__title--logo__png {
+  width: auto;
+  height: 55.63px;
+}
+
+.p-header__menu {
+  width: 487.96px;
+  margin-top: 5.5px;
+  margin-left: 24.18%;
+  box-sizing: border-box;
+}
+
+.p-header__menu__list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.p-header__menu__item {
+  padding: 11px 32px;
+  border-right-width: 1px;
+  border-left: 1px solid #707070;
+}
+
+.p-header__menu__item:last-child {
+  border-right: 1px solid #000000;
+}
+
+.c-item__title {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
 }
 /*# sourceMappingURL=index.css.map */

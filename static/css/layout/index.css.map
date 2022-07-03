@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"layout/index.css","sourcesContent":[]}
+{"version":3,"sourceRoot":"","sources":["layout/_header.scss"],"names":[],"mappings":"AAAA;EAEE","file":"layout/index.css","sourcesContent":[".l-header{\n\n  background-color: #FEDA1C;\n\n}\n"]}
