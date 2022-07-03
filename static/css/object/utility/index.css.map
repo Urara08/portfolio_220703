@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["object/utility/_variables.scss","object/utility/index.scss"],"names":[],"mappings":";AAAA;AACmB;ACCnB","file":"object/utility/index.css","sourcesContent":["/** 色の変数 ------------ **/\r\n$colorGR: #2ab733; /* テスト */\r\n","@forward '_variables';\r\n\r\n/*@forward \"mixins\";*/\r\n"]}

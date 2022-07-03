@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["object/global/_variables.scss"],"names":[],"mappings":";AAAA;AAC6B;AACD","file":"object/global/index.css","sourcesContent":["/** 色の変数 ------------ **/\r\n$color--base-li-OR: #FFF7EF; /* テスト */\r\n$color--base-li-RD:#e82222; /*テスト2*/\r\n"]}

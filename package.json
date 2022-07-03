@@ -1,0 +1,28 @@
+{
+  "name": "re_test",
+  "version": "1.0.0",
+  "description": "準備20:15〜",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urara08/re_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urara08/re_test/issues"
+  },
+  "homepage": "https://github.com/Urara08/re_test#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "orchestrator": "^0.3.8"
+  }
+}

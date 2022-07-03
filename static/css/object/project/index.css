@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/** 色の変数 ------------ **/
+/* テスト */
+/*@forward "mixins";*/
+.button {
+  background-color: #2ab733;
+}
+/*# sourceMappingURL=index.css.map */
