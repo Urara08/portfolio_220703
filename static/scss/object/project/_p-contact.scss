@@ -36,9 +36,26 @@
 .p-contact__wrapper{
 
     width: 82.6%;
-    height: 1000px;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin: auto;
     margin-bottom: 20px;
-    background-color: aqua;
+    background-color: #FFFFFF;
+
+}
+
+/*サイト参考*/
+.contact-item,
+.contact-body {
+    padding: 20px;
+    border: 1px solid #F8F9FA;
+}
+
+.contact-item {
+    text-align: right;
+    width: 37%;
+    background-color: #FEDA1C;
+}
+
+.contact-body {
+  width: 100%;
+
 }
