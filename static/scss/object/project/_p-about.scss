@@ -28,29 +28,34 @@
   opacity: 1;
 }
 
-.c-card__about__wrapper{/*カードを横並びに*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 .c-card__about{
   position: relative;
 
   background-color: #707070;
   opacity: 0.7;
+
 }
+
+.c-card__about__wrapper{/*カードを横並びに*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: solid red 1px;
+}
+
+
 
 .c-card__about__frame{
   opacity: 1;
+
 }
 
 .c-keyboad.jpg{
   position: absolute;
   top: 0;
   left: 0;
-  width: 25%;
-  height: 303px;
+  width: 15%;
   opacity: 1;
   border: solid red 1px;
 
