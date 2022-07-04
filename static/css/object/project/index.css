@@ -297,4 +297,8 @@
 .c-skill__card:last-child {
   margin-right: 0;
 }
+
+.text-area {
+  text-align: center;
+}
 /*# sourceMappingURL=index.css.map */
