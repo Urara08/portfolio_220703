@@ -316,11 +316,20 @@
 }
 
 .c-title--contact {
-  margin-left: 260px;
   margin-bottom: 80px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: 800;
   font-size: 40px;
+  color: #ffffff;
+  line-height: 1.5;
+  opacity: 1;
+}
+
+.c-dispriciton--contact {
+  margin-bottom: 80px;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 800;
+  font-size: 24px;
   color: #ffffff;
   line-height: 1.5;
   opacity: 1;
