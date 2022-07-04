@@ -1,6 +1,8 @@
 @use '../utility' as var;
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-header{
+  position: relative;
+  z-index: 20;
   height: 136px;
   margin-right: 260px;
   margin-left: 260px;

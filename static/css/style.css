@@ -126,6 +126,8 @@ h2 span::after {
   background-color: #2ab733;
 } /*使用例.button { background-color: var.$colorGR;}*/
 .p-header {
+  position: relative;
+  z-index: 20;
   height: 136px;
   margin-right: 260px;
   margin-left: 260px;
@@ -334,6 +336,7 @@ h2 span::after {
 }
 
 .p-about__pic--me {
+  width: 15.76%;
   margin-right: 50%;
   margin-left: 50%;
   margin-top: 64px;
