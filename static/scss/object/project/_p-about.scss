@@ -36,16 +36,12 @@
 
 .c-card__about{
   position: relative;
-  width: 25%;
-  height: 303px;
+
   background-color: #707070;
   opacity: 0.7;
 }
 
 .c-card__about__frame{
-  position: relative;
-  width: 25%;
-  height: 303px;
 
 }
 
@@ -53,7 +49,8 @@
   position: absolute;
   top: 0;
   left: 0;
-
+  width: 25%;
+  height: 303px;
   border: solid red 1px;
 }
 
@@ -66,7 +63,7 @@
   font-family: 'Kaisei Tokumin', serif;
   font-weight:bold;
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
   line-height: 1.5;
   opacity: 1;
 }
