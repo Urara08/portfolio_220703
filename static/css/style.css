@@ -523,6 +523,25 @@ h2 span::after {
   width: 100%;
 }
 
+/*使用例.button { background-color: var.$colorGR;}*/
+.p-footer {
+  position: relative;
+  z-index: 20;
+  height: 85px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.p-footer__title {
+  margin: auto;
+  width: 6.04%;
+}
+
+.p-header__title--logo__png {
+  width: auto;
+  height: 55.63px;
+}
+
 /**
 * Foundation
 * ========================== */
