@@ -1,0 +1,40 @@
+@use '../utility' as var;
+/*使用例.button { background-color: var.$colorGR;}*/
+.p-product{
+  position: relative;
+  z-index: 10;
+  max-width: 100%;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+
+}
+
+.c-title--product{
+  margin-left: 182px;
+  margin-bottom: 80px;
+  font-family: 'Kaisei Tokumin', serif;
+  font-weight:800;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+
+.p-product__wrapper{
+  display:  flex;
+  justify-content:space-around;
+  flex-direction:row;
+  width: 89%;
+  border: solid red 1px;
+}
+
+.c-product__pic{
+  width: 155%;
+
+}
+
+.p-product__wrapper{
+  margin-bottom: 24px;
+}

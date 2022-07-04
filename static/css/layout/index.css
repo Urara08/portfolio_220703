@@ -15,4 +15,12 @@
   background-color: #FEDA1C;
   opacity: 0.8;
 }
+
+.l-product {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+  background-color: #262424;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=index.css.map */
