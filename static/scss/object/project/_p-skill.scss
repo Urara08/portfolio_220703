@@ -8,7 +8,6 @@
   margin-left: 228px;
   padding-top: 80px;
   padding-bottom: 104px;
-  border: solid red 1px;
 }
 
 .c-title--skill{
@@ -30,14 +29,16 @@
   margin-bottom: 24px;
 }
 
+.p-skill__wrapper:last-child{
+  margin-bottom: 0;
+}
+
 .c-skill__card{
   width: 312px;
   height: 455.77px;
   padding: 32px 40px;
   background-color: #ffffff;
 }
-
-
 
 .text-area{
   text-align: center;

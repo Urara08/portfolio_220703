@@ -268,7 +268,6 @@
   margin-left: 228px;
   padding-top: 80px;
   padding-bottom: 104px;
-  border: solid red 1px;
 }
 
 .c-title--skill {
@@ -289,6 +288,10 @@
   margin-bottom: 24px;
 }
 
+.p-skill__wrapper:last-child {
+  margin-bottom: 0;
+}
+
 .c-skill__card {
   width: 312px;
   height: 455.77px;
@@ -298,5 +301,42 @@
 
 .text-area {
   text-align: center;
+}
+
+/*使用例.button { background-color: var.$colorGR;}*/
+.p-contact {
+  position: relative;
+  z-index: 10;
+  max-width: 100%;
+  margin-right: 260px;
+  margin-left: 260;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.c-title--product {
+  margin-left: 0px;
+  margin-bottom: 80px;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.p-product__wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 89%;
+}
+
+.c-product__pic {
+  width: 155%;
+  opacity: 1;
+}
+
+.p-product__wrapper {
+  margin-bottom: 24px;
 }
 /*# sourceMappingURL=index.css.map */
