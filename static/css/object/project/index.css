@@ -265,7 +265,7 @@
   z-index: 10;
   max-width: 100%;
   margin-right: 228px;
-  margin-left: 228;
+  margin-left: 228px;
   padding-top: 80px;
   padding-bottom: 104px;
   border: solid red 1px;
@@ -286,6 +286,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   width: 106.9%;
+  margin-bottom: 24px;
 }
 
 .c-skill__card {
