@@ -42,7 +42,7 @@
 }
 
 .c-card__about__frame{
-
+  opacity: 1;
 }
 
 .c-keyboad.jpg{
@@ -51,7 +51,9 @@
   left: 0;
   width: 25%;
   height: 303px;
+  opacity: 1;
   border: solid red 1px;
+
 }
 
 .c-copy{
@@ -71,6 +73,7 @@
 .c-information__wrapper{
   width: 100%;
   margin-top: 64px;
+  opacity: 1;
 }
 
 .p-about__information{
@@ -80,4 +83,10 @@
   color: #000000;
   line-height: 1.75;
   opacity: 1;
+}
+
+.p-about__pic--me{
+  margin-right: 50%;
+  margin-left: 50%;
+  margin-top: 64px;
 }

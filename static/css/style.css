@@ -290,12 +290,17 @@ h2 span::after {
   opacity: 0.7;
 }
 
+.c-card__about__frame {
+  opacity: 1;
+}
+
 .c-keyboad.jpg {
   position: absolute;
   top: 0;
   left: 0;
   width: 25%;
   height: 303px;
+  opacity: 1;
   border: solid red 1px;
 }
 
@@ -316,6 +321,7 @@ h2 span::after {
 .c-information__wrapper {
   width: 100%;
   margin-top: 64px;
+  opacity: 1;
 }
 
 .p-about__information {
@@ -325,6 +331,12 @@ h2 span::after {
   color: #000000;
   line-height: 1.75;
   opacity: 1;
+}
+
+.p-about__pic--me {
+  margin-right: 50%;
+  margin-left: 50%;
+  margin-top: 64px;
 }
 
 /**
