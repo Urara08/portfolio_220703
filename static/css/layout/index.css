@@ -7,4 +7,12 @@
   z-index: 20;
   background-color: #FEDA1C;
 }
+
+.l-about {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+  background-color: #FEDA1C;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=index.css.map */
