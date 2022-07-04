@@ -1,0 +1,47 @@
+@use '../utility' as var;
+/*使用例.button { background-color: var.$colorGR;}*/
+.p-skill{
+  position: relative;
+  z-index: 10;
+  max-width: 100%;
+  margin-right: 228px;
+  margin-left: 228;
+  padding-top: 80px;
+  padding-bottom: 104px;
+
+}
+
+.c-title--skill{
+  margin-left: 32px;
+  margin-bottom: 80px;
+  font-family: 'Kaisei Tokumin', serif;
+  font-weight:800;
+  font-size: 40px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+
+.p-skill__wrapper{
+  display:  flex;
+  justify-content:space-around;
+  flex-direction:row;
+  width: 106.9%;
+}
+
+.c-skill__card{
+  width: 312px;
+  height: 455.77px;
+  background-color: #ffffff;
+  margin-right: 24px;
+}
+
+.c-skill__card:last-child{
+  margin-right: 0;
+
+}
+
+.text-area{
+
+  text-align: center;
+}
