@@ -39,4 +39,10 @@
   background-color: #262424;
   opacity: 0.8;
 }
+
+.l-footer {
+  position: relative;
+  z-index: 20;
+  background-color: #FEDA1C;
+}
 /*# sourceMappingURL=index.css.map */
