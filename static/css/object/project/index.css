@@ -4,7 +4,28 @@
 /*@forward "mixins";*/
 .button {
   background-color: #2ab733;
-} /*使用例.button { background-color: var.$colorGR;}*/
+}
+
+.p-contact--button {
+  display: block;
+  margin-right: 322px;
+  margin-left: 322px;
+  width: 280px;
+  height: 56px;
+  background-color: #FEDA1C;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.p-contact--button a {
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+/*使用例.button { background-color: var.$colorGR;}*/
 .p-header {
   position: relative;
   z-index: 20;
@@ -312,7 +333,6 @@
   margin-left: 260px;
   padding-top: 80px;
   padding-bottom: 80px;
-  border: solid red 1px;
 }
 
 .c-title--contact {
