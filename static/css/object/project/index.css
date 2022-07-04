@@ -309,7 +309,7 @@
   z-index: 10;
   max-width: 100%;
   margin-right: 260px;
-  margin-left: 260;
+  margin-left: 260px;
   padding-top: 80px;
   padding-bottom: 80px;
   border: solid red 1px;
@@ -326,19 +326,12 @@
   opacity: 1;
 }
 
-.p-product__wrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  width: 89%;
-}
-
-.c-product__pic {
-  width: 155%;
-  opacity: 1;
-}
-
-.p-product__wrapper {
-  margin-bottom: 24px;
+.p-contact__wrapper {
+  width: 82.6%;
+  height: 1000px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  background-color: aqua;
 }
 /*# sourceMappingURL=index.css.map */
