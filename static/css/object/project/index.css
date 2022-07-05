@@ -271,13 +271,16 @@
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 24px;
-  background-color: aquamarine;
 }
 
 .c-product {
   width: 31.25%;
-  margin-right: 40px;
+  margin-right: 3.125%;
   margin-bottom: 24px;
+}
+
+.c-product__pic {
+  width: 100%;
 }
 
 .c-product:nth-of-type(3n) {
