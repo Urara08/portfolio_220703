@@ -8,7 +8,7 @@
   margin-left: 80px;
   padding-top: 40px;
   padding-bottom: 80px;
-
+  border: solid red 1px;
 }
 
 .c-title--product{
@@ -23,18 +23,19 @@
 
 
 .p-product__wrapper{
-  display:  flex;
-  justify-content:space-around;
-  flex-direction:row;
-  width: 89%;
-
-}
-
-.c-product__pic{
-  width: 155%;
-  opacity: 1;
-}
-
-.p-product__wrapper{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 100%;
   margin-bottom: 24px;
+  background-color: aquamarine;
+}
+
+.c-product{
+  width: 31.25%;
+  margin-right: 40px;
+  margin-bottom: 24px;
+}
+.c-product:nth-of-type(3n){
+  margin-right: 0 ;
 }
