@@ -337,7 +337,6 @@ h2 span::after {
   flex-wrap: wrap;
   margin-right: 4.34%;
   margin-left: 4.34%;
-  border: solid red 1px;
 }
 
 .c-card__about:nth-of-type(2n) {
@@ -348,6 +347,7 @@ h2 span::after {
   width: 42.85%;
   margin-right: 14.28%;
   background-color: #707070;
+  padding-bottom: 5%;
 }
 
 .c-keyboad__jpg {
@@ -359,13 +359,12 @@ h2 span::after {
 .c-copy {
   position: absolute;
   z-index: 30;
-  width: 100%;
-  margin: auto;
-  margin-bottom: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: bold;
   font-size: 16px;
-  color: #000000;
+  color: #ffffff;
   line-height: 1.5;
   opacity: 1;
 }
