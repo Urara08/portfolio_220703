@@ -415,7 +415,15 @@
   width: 100%;
   padding: 20px;
   text-align: left;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
+}
+
+input.form-text {
+  width: 88.54%;
+}
+
+textarea.form-textarea {
+  width: 88.54%;
 }
 
 /*使用例.button { background-color: var.$colorGR;}*/
