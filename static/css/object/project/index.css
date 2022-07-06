@@ -195,9 +195,9 @@
 
 .c-card__about {
   width: 42.85%;
+  min-width: 25%;
   margin-right: 14.28%;
   background-color: #707070;
-  padding-bottom: 5%;
 }
 
 .c-keyboad__jpg {
@@ -207,10 +207,10 @@
 }
 
 .c-copy {
-  position: absolute;
-  z-index: 30;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: bold;
   font-size: 16px;
