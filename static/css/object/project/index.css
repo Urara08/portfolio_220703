@@ -34,22 +34,20 @@
   margin-left: 260px;
   padding-top: 40px;
   padding-bottom: 40.4px;
-}
-
-.p-header__wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .p-header__title {
   width: 6.04%;
+  height: 55.63px;
   margin-left: 40px;
 }
 
 .p-header__title--logo__png {
   width: auto;
-  height: 55.63px;
 }
 
 .p-header__menu {
