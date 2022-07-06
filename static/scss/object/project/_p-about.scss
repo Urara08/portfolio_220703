@@ -19,7 +19,7 @@
 }
 
 .c-cope--1{
-  margin-bottom: 64px;
+  margin: auto;
   font-family: 'Kaisei Tokumin', serif;
   font-weight:800;
   font-size: 24px;
@@ -28,34 +28,29 @@
   opacity: 1;
 }
 
-.c-card__about{
-  position: relative;
-
-  background-color: #707070;
-  opacity: 0.7;
-
-}
-
 .c-card__about__wrapper{/*カードを横並びに*/
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-right: 4.34%;
+  margin-left: 4.34%;
   border: solid red 1px;
 }
 
+.c-card__about:nth-of-type(2n) {//(Xn): X = 右端の列の倍数
+  margin-right: 0;
+}
 
-
-.c-card__about__frame{
-  opacity: 1;
+.c-card__about{
+  width: 42.85%;
+  margin-right: 14.28%;
+  background-color: #707070;
 
 }
 
-.c-keyboad.jpg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 15%;
+
+.c-keyboad__jpg{
+  width: 100%;
   opacity: 1;
   border: solid red 1px;
 
