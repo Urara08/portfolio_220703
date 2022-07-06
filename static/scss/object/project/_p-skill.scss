@@ -11,7 +11,7 @@
 }
 
 .c-title--skill{
-  margin-left: 32px;
+  margin-left: 3.25%;
   margin-bottom: 80px;
   font-family: 'Kaisei Tokumin', serif;
   font-weight:800;
@@ -22,22 +22,23 @@
 
 
 .p-skill__wrapper{
-  display:  flex;
-  justify-content:space-evenly;
-  flex-direction:row;
-  width: 106.9%;
-  margin-bottom: 24px;
-}
-
-.p-skill__wrapper:last-child{
-  margin-bottom: 0;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
 }
 
 .c-skill__card{
-  width: 312px;
-  height: 455.77px;
-  padding: 32px 40px;
+  width: 31.70%;
+  height: 0;
+  margin-right: 2.43%;//任意
+  margin-bottom: 24px;//任意
+  padding-bottom:48.45%;
+
   background-color: #ffffff;
+}
+
+.c-skill__card:nth-of-type(3n) {//(Xn): X = 右端の列の倍数
+  margin-right: 0;
 }
 
 .text-area{

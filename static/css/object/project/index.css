@@ -297,7 +297,7 @@
 }
 
 .c-title--skill {
-  margin-left: 32px;
+  margin-left: 3.25%;
   margin-bottom: 80px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: 800;
@@ -308,21 +308,21 @@
 
 .p-skill__wrapper {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  width: 106.9%;
-  margin-bottom: 24px;
-}
-
-.p-skill__wrapper:last-child {
-  margin-bottom: 0;
+  justify-content: start;
+  flex-wrap: wrap;
 }
 
 .c-skill__card {
-  width: 312px;
-  height: 455.77px;
-  padding: 32px 40px;
+  width: 31.7%;
+  height: 0;
+  margin-right: 2.43%;
+  margin-bottom: 24px;
+  padding-bottom: 48.45%;
   background-color: #ffffff;
+}
+
+.c-skill__card:nth-of-type(3n) {
+  margin-right: 0;
 }
 
 .text-area {
