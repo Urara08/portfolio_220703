@@ -45,6 +45,7 @@
   color: #000000;
   line-height: 1.75;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .c-skill__card:nth-of-type(3n) {//(Xn): X = 右端の列の倍数
