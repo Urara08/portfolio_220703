@@ -511,11 +511,17 @@ h2 span::after {
 .p-contact {
   position: relative;
   z-index: 10;
-  max-width: 100%;
   margin-right: 260px;
   margin-left: 260px;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.contact-table {
+  width: 82.6%;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
 }
 
 .c-title--contact {
@@ -538,28 +544,28 @@ h2 span::after {
   opacity: 1;
 }
 
-.p-contact__wrapper {
-  width: 82.6%;
-  margin: auto;
-  margin-bottom: 20px;
-  background-color: #FFFFFF;
-}
-
 /*サイト参考*/
-.contact-item,
-.contact-body {
-  padding: 20px;
-  border: 1px solid #F8F9FA;
-}
-
 .contact-item {
   text-align: right;
   width: 37%;
   background-color: #FEDA1C;
 }
 
+.contact-item,
+.contact-body {
+  padding: 20px;
+  border: 1px solid #1c1f22;
+}
+
+.contact-body {
+  width: 63%;
+}
+
 .contact-body {
   width: 100%;
+  padding: 20px;
+  text-align: left;
+  background-color: aqua;
 }
 
 /*使用例.button { background-color: var.$colorGR;}*/
