@@ -469,6 +469,11 @@ h2 span::after {
   margin-bottom: 24px;
   padding-bottom: 48.45%;
   background-color: #ffffff;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.75;
 }
 
 .c-skill__card:nth-of-type(3n) {
@@ -477,6 +482,17 @@ h2 span::after {
 
 .text-area {
   text-align: center;
+}
+
+.c-tool {
+  display: block;
+  font-family: "Josefin Sans", serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+  border: solid 3px #707070;
 }
 
 /*使用例.button { background-color: var.$colorGR;}*/
