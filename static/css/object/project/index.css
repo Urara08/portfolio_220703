@@ -313,6 +313,7 @@
 }
 
 .c-skill__card {
+  position: relative;
   width: 31.7%;
   height: 0;
   margin-right: 2.43%;
@@ -324,6 +325,7 @@
   font-size: 16px;
   color: #000000;
   line-height: 1.75;
+  overflow: hidden;
 }
 
 .c-skill__card:nth-of-type(3n) {
@@ -331,10 +333,15 @@
 }
 
 .text-area {
+  position: relative;
+  z-index: 30;
   width: 74.35%;
+  height: auto;
+  min-width: 60%;
   margin-top: 10.25%;
   margin-right: 12.8%;
   margin-left: 12.8%;
+  padding-bottom: 1rem;
   border: solid red 1px;
 }
 
@@ -342,6 +349,14 @@
   width: 33.18%;
   margin: auto;
   margin-bottom: 8.42%;
+}
+
+.c-skill__card__dis {
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
 }
 
 /*使用例.button { background-color: var.$colorGR;}*/
