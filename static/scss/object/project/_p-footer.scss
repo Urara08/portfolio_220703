@@ -4,21 +4,20 @@
   position: relative;
   z-index: 20;
   height: 85px;
+
   padding-top: 24px;
   padding-bottom: 24px;
-
+  box-sizing: border-box;
 }
 
-.p-footer__wrapper{
 
-}
 
 .p-footer__title{
   margin: auto;
   width: 6.04%;
 }
 
-.p-header__title--logo__png{
+.p-footer__title--logo__png{
   width: auto;
-  height: 55.63px;
+  height: 37px;
 }

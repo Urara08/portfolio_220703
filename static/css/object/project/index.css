@@ -48,6 +48,7 @@
 
 .p-header__title--logo__png {
   width: auto;
+  height: 55.63px;
 }
 
 .p-header__menu {
@@ -444,6 +445,7 @@ textarea.form-textarea {
   height: 85px;
   padding-top: 24px;
   padding-bottom: 24px;
+  box-sizing: border-box;
 }
 
 .p-footer__title {
@@ -451,8 +453,8 @@ textarea.form-textarea {
   width: 6.04%;
 }
 
-.p-header__title--logo__png {
+.p-footer__title--logo__png {
   width: auto;
-  height: 55.63px;
+  height: 37px;
 }
 /*# sourceMappingURL=index.css.map */
