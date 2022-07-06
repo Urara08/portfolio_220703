@@ -507,6 +507,16 @@ h2 span::after {
   line-height: 1.5;
 }
 
+.c-skill__card__title {
+  display: block;
+  text-align: center;
+}
+
+.c-skill__card__title.bottom {
+  margin-bottom: 16px;
+  color: rgb(0, 0, 0);
+}
+
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-contact {
   position: relative;
