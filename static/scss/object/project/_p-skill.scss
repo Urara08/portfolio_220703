@@ -32,7 +32,8 @@
   height: 0;
   margin-right: 2.43%;//任意
   margin-bottom: 24px;//任意
-  padding-bottom:48.45%;
+
+  padding-bottom:38.45%;//13.10
 
   background-color: #ffffff;
   font-family: 'Kaisei Tokumin', serif;
@@ -47,16 +48,16 @@
 }
 
 .text-area{
-  text-align: center;
+  width: 74.35%;
+  margin-top: 10.25%;
+  margin-right: 12.8%;
+  margin-left: 12.8%;
+  border: solid red 1px;
 }
 
 .c-tool{
-  display: block;
-  font-family: 'Josefin Sans', serif;
-  font-weight:bold;
-  font-size: 24px;
-  color: #000000;
-  line-height: 1.5;
-  background-color: #FFFFFF;
-  border:solid 3px #707070;
+  width: 33.18%;
+  margin: auto;
+  margin-bottom: 8.42%;
+
 }
