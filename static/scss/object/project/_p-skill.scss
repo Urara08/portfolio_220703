@@ -23,7 +23,6 @@
 
 
 .p-skill__wrapper{
-
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
@@ -32,9 +31,9 @@
 .c-skill__card{
   position:relative;
   width: 31.70%;
-
   height: 460px;
-  min-height: 84.21%;/*上下につぶれない様に*/
+  min-height: 83.47%;
+
   margin-right: 2.43%;
   margin-bottom: 24px;
 
