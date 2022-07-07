@@ -474,9 +474,8 @@ textarea.form-textarea {
   padding-top: 80px;
   padding-left: 5.55vw;
   padding-right: 5.55vw;
-  padding-bottom: 64px;
-  background-color: #262424;
-  opacity: 0.8;
+  padding-bottom: 104px;
+  background-color: rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
 }
 

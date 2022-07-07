@@ -12,7 +12,7 @@
   position: relative;
   max-width: 100%;
   z-index: 10;
-  background-color: #FEDA1C;
+  background-color: rgba(254, 218, 28, 0.8);
   opacity: 0.8;
 }
 
@@ -20,15 +20,14 @@
   position: relative;
   max-width: 100%;
   z-index: 10;
-  background-color: #262424;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .l-skill {
   position: relative;
   max-width: 100%;
   z-index: 10;
-  background-color: #FEDA1C;
+  background-color: rgba(254, 218, 28, 0.8);
   opacity: 0.8;
 }
 
@@ -36,8 +35,7 @@
   position: relative;
   max-width: 100%;
   z-index: 10;
-  background-color: #262424;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .l-footer {
