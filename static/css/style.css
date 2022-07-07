@@ -671,9 +671,10 @@ textarea.form-textarea {
   left: 2.5vw;
   bottom: 32px;
   content: "";
-  width: 58.33vw;
+  width: 91.3%;
+  height: 0;
+  padding-bottom: 61.5%;
   margin: auto;
-  height: 70vh;
   background-color: rgb(191, 181, 184);
 }
 
