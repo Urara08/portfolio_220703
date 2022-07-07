@@ -499,22 +499,8 @@ textarea.form-textarea {
   opacity: 1;
 }
 
-.c-card__details__wrapper { /*カードを横並びに*/
-  display: flex;
-  justify-content: center;
-}
-
-.c-card__details {
+.c-picture--top--single { /*白い背景の台紙*/
   position: relative;
-  width: 25.03vw;
-  min-width: 25%;
-  margin-right: 14.28%;
-  color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-}
-
-.c-picture--top--single { /*白い枠--電球の写真*/
-  position: absolute;
   z-index: 20;
   width: 63.88%;
   height: 0;
@@ -524,7 +510,7 @@ textarea.form-textarea {
 
 .c-picture--top--single::after {
   display: block;
-  position: relative;
+  position: absolute;
   z-index: 30;
   top: 32px;
   margin: auto;
@@ -532,6 +518,16 @@ textarea.form-textarea {
   width: 58.33vw;
   height: 70vh;
   background-color: rgb(191, 181, 184);
+}
+
+.c-product__jpg--1 { /*RaiseTech正方形バナー*/
+  display: block;
+  position: relative;
+  z-index: 50;
+  width: 57.14%;
+  margin: auto;
+  margin-top: 67px;
+  margin-bottom: 67px;
 }
 
 .c-information__wrapper {
@@ -568,13 +564,5 @@ textarea.form-textarea {
   font-family: "Kaisei Tokumin", serif;
   color: rgb(255, 255, 255);
   text-decoration: none;
-}
-
-.c-product__jpg--1 {
-  display: block;
-  width: 57.14%;
-  margin: auto;
-  margin-top: 67px;
-  margin-bottom: 67px;
 }
 /*# sourceMappingURL=index.css.map */
