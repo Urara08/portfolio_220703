@@ -11,7 +11,7 @@
 }
 
 .contact-table{
-  width: 52.77vw;
+  width: 55.55vw;
   margin: auto;
   margin-bottom: 80px;
   background-color: #FFFFFF;
@@ -43,14 +43,18 @@
 
 
 .contact-item {
+
     text-align: right;
+
     width: 37%;
     background-color: #FEDA1C;
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight:normal;
 }
 
 .contact-item,
 .contact-body {
-    padding: 20px;
+    padding: 16px;
     border: 1px solid #1c1f22;
 }
 
@@ -71,4 +75,5 @@ input.form-text {
 
 textarea.form-textarea{
   width: 88.54%;
+  height:240px;
 }
