@@ -4,6 +4,7 @@
   position: relative;
   z-index: 10;
   max-width: 100%;
+  min-width: 920px;/*カードのテキスト部分を潰さない*/
   margin-right: 228px;
   margin-left: 228px;
   padding-top: 80px;
@@ -31,6 +32,7 @@
 .c-skill__card{
   position:relative;
   width: 31.70%;
+
   height: 460px;
   margin-right: 2.43%;
   margin-bottom: 24px;
@@ -57,7 +59,8 @@
 
   height: 384px;
 
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 32px;
 
 
@@ -81,7 +84,7 @@
   display: block;
   text-align: center;
   font-weight:normal;
-  font-size: 24px;
+  font-size: 1.66vw;
   color: #000000;
   line-height: 1.5;
 }
