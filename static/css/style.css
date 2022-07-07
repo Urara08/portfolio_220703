@@ -343,8 +343,22 @@ h2 span::after {
   .bar_bottom {
     bottom: 0px;
   }
+  .p-header__title {
+    margin-left: 0;
+  }
 }
-@media screen and (max-width: 375px) { /*スマホ*/ }
+@media screen and (max-width: 375px) { /*スマホ*/
+  .p-header {
+    position: relative;
+    z-index: 20;
+    margin-right: 8.53%;
+    margin-left: 8.53%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
 /*使用例.button { background-color: var.$colorGR;}*/
 .video__wrapper {
   width: 100%;

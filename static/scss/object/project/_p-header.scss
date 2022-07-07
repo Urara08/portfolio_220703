@@ -172,8 +172,23 @@ border-left: 1px solid #707070;
 
 }
 
+.p-header__title{
+  margin-left: 0;//マージンから40px
+}
+
 }
 
 @media screen and (max-width:375px) {/*スマホ*/
+  .p-header{
+    position: relative;
+    z-index: 20;
 
+    margin-right: 8.53%;
+    margin-left: 8.53%;
+
+    display: flex;
+    flex-direction: row;//ロゴとボタンを横並びに
+    justify-content: space-between;//両端にはなす
+    box-sizing: border-box;
+  }
    }
