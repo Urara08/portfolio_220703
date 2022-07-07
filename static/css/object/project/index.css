@@ -465,4 +465,93 @@ textarea.form-textarea {
   width: auto;
   height: 37px;
 }
+
+/*使用例.button { background-color: var.$colorGR;}*/
+.p-details {
+  max-width: 63.88%;
+  margin-right: 260px;
+  margin-left: 260px;
+  margin-bottom: 112px;
+  padding-top: 80px;
+  padding-bottom: 64px;
+}
+
+.c-title--details {
+  margin-bottom: 80px;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.c-cope--1 {
+  margin-bottom: 64px;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #000000;
+  line-height: 1.75;
+  opacity: 1;
+}
+
+.c-card__details__wrapper { /*カードを横並びに*/
+  display: flex;
+  justify-content: center;
+  margin-right: 4.34%;
+  margin-left: 4.34%;
+}
+
+.c-card__details:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.c-card__details {
+  width: 25.03vw;
+  min-width: 25%;
+  margin-right: 14.28%;
+  background-color: #707070;
+  text-align: center;
+}
+
+.c-keyboad__jpg {
+  width: 100%;
+  opacity: 1;
+  border: solid red 1px;
+}
+
+.c-copy {
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: bold;
+  font-size: 1.11px;
+  color: #ffffff;
+  line-height: 1.5;
+  opacity: 1;
+}
+
+.c-information__wrapper {
+  width: 100%;
+  margin-top: 64px;
+  opacity: 1;
+}
+
+.p-details__information {
+  font-weight: normal;
+  font-size: 16px;
+  font-family: "Kaisei Tokumin", serif;
+  color: #000000;
+  line-height: 1.75;
+  opacity: 1;
+}
+
+.p-details__pic--me {
+  width: 15.76%;
+  margin-right: 50%;
+  margin-left: 50%;
+  margin-top: 64px;
+}
 /*# sourceMappingURL=index.css.map */
