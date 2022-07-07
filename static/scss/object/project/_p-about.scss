@@ -30,11 +30,9 @@
 
 .c-card__about__wrapper{/*カードを横並びに*/
   display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
+  justify-content: center;
   margin-right: 4.34%;
   margin-left: 4.34%;
-
 }
 
 .c-card__about:nth-of-type(2n) {//(Xn): X = 右端の列の倍数
@@ -42,11 +40,10 @@
 }
 
 .c-card__about{
-  width: 42.85%;
-  min-width: 25%;
+  width: 25%;
   margin-right: 14.28%;
   background-color: #707070;
-
+  text-align: center;
 }
 
 
@@ -54,7 +51,6 @@
   width: 100%;
   opacity: 1;
   border: solid red 1px;
-
 }
 
 .c-copy{
