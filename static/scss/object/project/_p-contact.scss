@@ -45,7 +45,7 @@
 .contact-item {
 
     text-align: right;
-
+    vertical-align:middle;
     width: 37%;
     background-color: #FEDA1C;
     font-family: 'Kaisei Tokumin', serif;
@@ -76,4 +76,8 @@ input.form-text {
 textarea.form-textarea{
   width: 88.54%;
   height:240px;
+}
+
+.contact-item:nth-child(4){
+  border: solid red 1px;
 }
