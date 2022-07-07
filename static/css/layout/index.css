@@ -1,0 +1,52 @@
+.l-body {
+  position: relative;
+}
+
+.l-header {
+  position: relative;
+  z-index: 20;
+  background-color: #FEDA1C;
+}
+
+.l-about {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+  background-color: rgba(254, 218, 28, 0.8);
+  opacity: 0.8;
+}
+
+.l-product {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.l-skill {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+  background-color: rgba(254, 218, 28, 0.8);
+  opacity: 0.8;
+}
+
+.l-contact {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.l-footer {
+  position: relative;
+  z-index: 20;
+  background-color: #FEDA1C;
+}
+
+.l-details {
+  position: relative;
+  max-width: 100%;
+  z-index: 10;
+}
+/*# sourceMappingURL=index.css.map */
