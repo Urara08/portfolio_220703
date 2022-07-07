@@ -21,7 +21,7 @@
 }
 
 .c-sub-title--details{
-  margin-bottom: 64px;
+  margin-bottom: 24px;
   font-family: 'Kaisei Tokumin', serif;
   font-weight:800;
   font-size: 24px;
@@ -37,9 +37,7 @@
   margin-left: 4.34%;
 }
 
-.c-card__details:nth-of-type(2n) {//(Xn): X = 右端の列の倍数
-  margin-right: 0;
-}
+
 
 .c-card__details{
   width: 25.03vw;
@@ -50,30 +48,13 @@
 }
 
 
-.c-keyboad__jpg{
-  width: 100%;
-  opacity: 1;
-  border: solid red 1px;
-}
 
-.c-copy{
-  width: 60%;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
 
-  font-family: 'Kaisei Tokumin', serif;
-  font-weight:bold;
-  font-size: 1.11px;
-  color: #ffffff;
-  line-height: 1.5;
 
-  opacity: 1;
-}
 
 .c-information__wrapper{
   width: 100%;
-  margin-top: 64px;
+  margin-bottom: 56px;
   opacity: 1;
 }
 
@@ -84,11 +65,4 @@
   color: #ffffff;
   line-height: 1.75;
   opacity: 1;
-}
-
-.p-details__pic--me{
-  width: 15.76%;
-  margin-right: 50%;
-  margin-left: 50%;
-  margin-top: 64px;
 }
