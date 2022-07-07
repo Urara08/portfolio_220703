@@ -659,7 +659,6 @@ textarea.form-textarea {
   width: 63.88%;
   height: 0;
   padding-bottom: 42%;
-  background-color: #ffffff;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -668,9 +667,12 @@ textarea.form-textarea {
   position: absolute;
   z-index: 30;
   top: 32px;
-  margin: auto;
+  right: 2.5vw;
+  left: 2.5vw;
+  bottom: 32px;
   content: "";
   width: 58.33vw;
+  margin: auto;
   height: 70vh;
   background-color: rgb(191, 181, 184);
 }
@@ -679,10 +681,10 @@ textarea.form-textarea {
   display: block;
   position: relative;
   z-index: 50;
+  top: 35px;
+  bottom: 35px;
   width: 57.14%;
   margin: auto;
-  margin-top: 67px;
-  margin-bottom: 67px;
 }
 
 .c-information__wrapper {
