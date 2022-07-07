@@ -660,6 +660,7 @@ textarea.form-textarea {
   height: 0;
   padding-bottom: 42%;
   background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .c-picture--top--single::after {
