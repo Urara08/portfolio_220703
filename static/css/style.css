@@ -285,7 +285,8 @@ h2 span::after {
 }
 
 .c-light__jpg { /*電球の写真本体*/
-  position: absolute;
+  position: relative;
+  z-index: 40;
   width: 91.3%;
   margin: 38.5px 4.3%;
 }
@@ -658,6 +659,7 @@ textarea.form-textarea {
 }
 
 .c-card__details {
+  position: relative;
   width: 25.03vw;
   min-width: 25%;
   margin-right: 14.28%;
@@ -665,11 +667,25 @@ textarea.form-textarea {
   text-align: center;
 }
 
-.c-picture__bk--gry {
-  width: 58.33vw;
+.c-picture--top--single { /*白い枠--電球の写真*/
+  position: absolute;
+  z-index: 20;
+  width: 63.88%;
   height: 0;
-  padding-bottom: 65.47%;
-  color: rgb(191, 181, 184);
+  padding-bottom: 42%;
+  background-color: #ffffff;
+}
+
+.c-picture--top--single::after {
+  display: block;
+  position: relative;
+  z-index: 30;
+  top: 32px;
+  margin: auto;
+  content: "";
+  width: 58.33vw;
+  height: 70vh;
+  background-color: rgb(191, 181, 184);
 }
 
 .c-information__wrapper {
