@@ -150,8 +150,8 @@
   /* 以下、ハンバーガーボタン */
   .burger-btn {
     display: block;
-    width: 8%;
-    height: 120%;
+    width: 40px;
+    height: 40px;
     position: relative;
     z-index: 3;
     border: none;
@@ -166,14 +166,14 @@
     background-color: rgb(255, 255, 255);
   }
   .bar_top {
-    top: 10px;
+    top: 0px;
   }
   .bar_mid {
     top: 50%;
     transform: translate(-50%, -50%);
   }
   .bar_bottom {
-    bottom: 10px;
+    bottom: 0px;
   }
 }
 @media screen and (max-width: 375px) { /*スマホ*/ }
