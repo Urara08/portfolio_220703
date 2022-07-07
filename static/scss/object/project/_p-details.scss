@@ -22,7 +22,7 @@
   font-family: 'Kaisei Tokumin', serif;
   font-weight:800;
   font-size: 40px;
-  color: #ffffff;
+  color: rgb(255, 255, 255, 1);
   line-height: 1.5;
 }
 
@@ -31,7 +31,7 @@
   font-family: 'Kaisei Tokumin', serif;
   font-weight:800;
   font-size: 24px;
-  color: #ffffff;
+  color: rgb(255, 255, 255, 1);
   line-height: 1.75;
   opacity: 1;
 }
@@ -39,8 +39,7 @@
 .c-card__details__wrapper{/*カードを横並びに*/
   display: flex;
   justify-content: center;
-  margin-right: 4.34%;
-  margin-left: 4.34%;
+
 }
 
 
@@ -49,7 +48,7 @@
   width: 25.03vw;
   min-width: 25%;
   margin-right: 14.28%;
-  background-color: #ffffff;
+  color: rgb(255, 255, 255, 1);
   text-align: center;
 }
 
@@ -68,7 +67,28 @@
   font-weight:normal;
   font-size: 16px;
   font-family: 'Kaisei Tokumin', serif;
-  color: #ffffff;
+  color: rgb(255, 255, 255, 1);
   line-height: 1.75;
-  opacity: 1;
+}
+
+.c-dli-caret-right {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(255, 255, 255, 1);
+  line-height: 1;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0.375em 0.64952em;
+  border-left-color: currentColor;
+  border-right: 0;
+}
+
+.c-text-link{
+  font-weight:normal;
+  font-size: 16px;
+  font-family: 'Kaisei Tokumin', serif;
+  color: rgb(255, 255, 255, 1);
+  text-decoration: none;
 }
