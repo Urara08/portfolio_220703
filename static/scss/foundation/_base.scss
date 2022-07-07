@@ -1,2 +1,15 @@
-//test
-.test-title{color: aqua;}
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  vertical-align: middle;
+}

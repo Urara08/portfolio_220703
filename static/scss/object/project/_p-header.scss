@@ -1,5 +1,7 @@
+
 @use '../utility' as var;
 /*使用例.button { background-color: var.$colorGR;}*/
+
 .p-header{
   position: relative;
   z-index: 20;
@@ -13,6 +15,7 @@
   justify-content: space-between;//両端にはなす
   box-sizing: border-box;
 }
+
 
 
 
@@ -59,3 +62,115 @@ border-left: 1px solid #707070;
   font-size: 16px;
   color: #000000;
 }
+
+.burger-btn{
+  display: none;
+}
+@media screen and (max-width:768px) {/*タブレット*/
+
+
+  .p-header__menu{//スマホ版は隠す
+   display: none;
+  }
+  .p-header{
+    position: relative;
+    z-index: 20;
+    height: 136px;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;//ロゴとメニューを横並びに
+    justify-content: space-between;//両端にはなす
+    box-sizing: border-box;
+  }
+
+  /* 以下、ハンバーガーボタン */
+.burger-btn{
+  display: block;
+  width: 39px;
+  height: 39px;
+  position: relative;
+  z-index: 3;
+  border:none;
+}
+.bar{
+  width: 20px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(0, 0, 0, 1);
+}
+.bar_top{
+  top: 10px;
+}
+.bar_mid{
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.bar_bottom{
+  bottom: 10px;
+}
+
+}
+
+@media screen and (max-width:1280px) {/*タブレット*/
+
+  .p-header__menu{//メニューは隠す
+    display: none;
+  }
+
+  .p-header{
+    position: relative;
+    z-index: 20;
+
+    margin-right: 8.53%;
+    margin-left: 8.53%;
+
+    display: flex;
+    flex-direction: row;//ロゴとボタンを横並びに
+    justify-content: space-between;//両端にはなす
+    box-sizing: border-box;
+  }
+
+  /* 以下、ハンバーガーボタン */
+.burger-btn{
+  display: block;
+  width: 8%;
+  height: 120%;
+  position: relative;
+  z-index: 3;
+  border:none;
+}
+
+.bar{
+  width: 100%;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(255, 255, 255);
+}
+.bar_top{
+  top: 10px;
+
+}
+.bar_mid{
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.bar_bottom{
+  bottom: 10px;
+
+}
+
+}
+
+@media screen and (max-width:375px) {/*スマホ*/
+
+   }
