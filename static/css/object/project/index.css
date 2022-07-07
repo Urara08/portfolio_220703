@@ -527,8 +527,8 @@ textarea.form-textarea {
   display: block;
   position: relative;
   z-index: 50;
-  top: 35px;
-  bottom: 35px;
+  top: 6.8vh;
+  bottom: 6.8vh;
   width: 57.14%;
   margin: auto;
 }
