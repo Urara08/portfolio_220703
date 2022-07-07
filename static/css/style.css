@@ -624,12 +624,16 @@ textarea.form-textarea {
 
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-details {
-  max-width: 63.88%;
-  margin-right: 260px;
-  margin-left: 260px;
+  margin-right: 18.05vw;
+  margin-left: 18.05vw;
   margin-bottom: 112px;
   padding-top: 80px;
+  padding-left: 5.55vw;
+  padding-right: 5.55vw;
   padding-bottom: 64px;
+  background-color: #262424;
+  opacity: 0.8;
+  box-sizing: border-box;
 }
 
 .c-title--details {
