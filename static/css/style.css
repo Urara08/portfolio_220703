@@ -321,6 +321,7 @@ h2 span::after {
     height: 40px;
     position: relative;
     z-index: 3;
+    margin-top: 8px;
     border: none;
   }
   .bar {
