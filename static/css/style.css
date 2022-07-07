@@ -639,16 +639,16 @@ textarea.form-textarea {
   font-family: "Kaisei Tokumin", serif;
   font-weight: 800;
   font-size: 40px;
-  color: #000000;
+  color: #ffffff;
   line-height: 1.5;
 }
 
-.c-cope--1 {
+.c-sub-title {
   margin-bottom: 64px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: 800;
   font-size: 24px;
-  color: #000000;
+  color: #ffffff;
   line-height: 1.75;
   opacity: 1;
 }
@@ -668,7 +668,7 @@ textarea.form-textarea {
   width: 25.03vw;
   min-width: 25%;
   margin-right: 14.28%;
-  background-color: #707070;
+  background-color: #ffffff;
   text-align: center;
 }
 
@@ -701,7 +701,7 @@ textarea.form-textarea {
   font-weight: normal;
   font-size: 16px;
   font-family: "Kaisei Tokumin", serif;
-  color: #000000;
+  color: #ffffff;
   line-height: 1.75;
   opacity: 1;
 }
