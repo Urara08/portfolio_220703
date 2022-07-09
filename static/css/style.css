@@ -705,6 +705,7 @@ h2 span::after {
   text-align: center;
   font-weight: normal;
   font-size: 1.66vw;
+  white-space: nowrap;
   color: rgb(0, 0, 0);
   line-height: 1;
 }
