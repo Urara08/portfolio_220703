@@ -546,7 +546,7 @@
   color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1200px) { /*タブレット*/
+@media screen and (max-width: 900px) { /*タブレット*/
   .p-skill {
     margin-right: 122px;
     margin-left: 122px;
@@ -558,7 +558,6 @@
     flex-wrap: wrap;
     width: 100%;
     min-width: 82.75%;
-    border: solid red 1px;
   }
   .c-skill__card {
     position: relative;
@@ -581,7 +580,6 @@
     padding: 5%;
     background-color: #F8F9FA;
     box-sizing: border-box;
-    border: solid red 1px;
   }
   .c-skill__card:nth-of-type(3n) {
     margin-right: auto;
@@ -602,7 +600,6 @@
     line-height: 1.5;
     box-sizing: border-box;
     border: solid rgb(255, 255, 255) 1px;
-    border: solid red 1px;
   }
   .c-skill__card__title-group {
     display: flex;
@@ -611,7 +608,6 @@
     margin-left: 0;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: solid red 1px;
   }
   .c-skill__card__title {
     display: inline-block;
