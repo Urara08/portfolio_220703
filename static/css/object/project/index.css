@@ -496,6 +496,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 32px;
+  box-sizing: border-box;
 }
 
 .c-skill__card__title-group {
@@ -506,20 +507,21 @@
   margin-top: 10px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  border: solid red 1px;
+  box-sizing: border-box;
 }
 
 .c-skill__card__up {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(99, 20, 139);
+  box-sizing: border-box;
 }
 
-.c-tool {
+.c-skill__card__dis.c-tool {
   width: 33.18%;
   margin: auto;
   margin-bottom: 8.42%;
+  box-sizing: border-box;
 }
 
 .c-skill__card__dis {
@@ -575,8 +577,8 @@
   .text-area {
     width: 82.77%;
     height: 290px;
-    margin: 24px 8.62%;
-    padding: 20px;
+    margin: 32px 8.62%;
+    padding: 5%;
     background-color: #F8F9FA;
     box-sizing: border-box;
     border: solid red 1px;
@@ -587,22 +589,26 @@
   .c-skill__card__up {
     display: flex;
     flex-direction: row;
-    flex-direction: row;
-    background-color: rgb(99, 20, 139);
+    justify-content: center;
+    align-items: center;
   }
   .c-tool {
     display: block;
     width: 20.05%;
-    margin: auto;
-    margin-bottom: 10px;
+    margin-top: 32px;
+    margin-left: 9.89%;
+    margin-right: 6.25%;
+    margin-bottom: 5px;
     line-height: 1.5;
-    border: solid rgb(68, 11, 147) 1px;
+    box-sizing: border-box;
+    border: solid rgb(255, 255, 255) 1px;
+    border: solid red 1px;
   }
   .c-skill__card__title-group {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-left: 0;
     margin-bottom: 10px;
     box-sizing: border-box;
     border: solid red 1px;
@@ -617,7 +623,6 @@
   }
   .c-skill__card__bottom {
     text-align: left;
-    background-color: aquamarine;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
