@@ -517,7 +517,7 @@
   display: block;
   text-align: center;
   font-weight: normal;
-  font-size: 1.66vw;
+  font-size: 24px;
   color: rgb(0, 0, 0);
   line-height: 1.5;
 }
@@ -527,7 +527,7 @@
   color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1000px) { /*タブレット*/
+@media screen and (max-width: 1280px) { /*タブレット*/
   .p-skill {
     margin-right: 122px;
     margin-left: 122px;
@@ -539,12 +539,13 @@
     flex-wrap: wrap;
     width: 100%;
     min-width: 82.75%;
+    border: solid red 1px;
   }
   .c-skill__card {
     position: relative;
-    width: 89.23%;
+    width: 65.38%;
     min-width: 23.57%;
-    height: 464px;
+    height: 360px;
     margin: auto;
     margin-bottom: 24px;
     background-color: rgb(255, 255, 255);
@@ -555,13 +556,50 @@
     line-height: 1.75;
     box-sizing: border-box;
   }
+  .text-area {
+    width: 82.77%;
+    height: 290px;
+    margin: 24px 8.62%;
+    padding: 20px;
+    background-color: #F8F9FA;
+    box-sizing: border-box;
+    border: solid red 1px;
+  }
   .c-skill__card:nth-of-type(3n) {
     margin-right: auto;
   }
+  .c-skill__card__up {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(99, 20, 139);
+  }
   .c-tool {
+    display: block;
     width: 20.05%;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    border: solid rgb(68, 11, 147) 1px;
+  }
+  .c-skill__card__title-group {
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    margin-bottom: 8.42%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: solid red 1px;
+  }
+  .c-skill__card__title {
+    display: inline-block;
+    text-align: left;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+  }
+  .c-skill__card__bottom {
+    text-align: left;
+    background-color: aquamarine;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
