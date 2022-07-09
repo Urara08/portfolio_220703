@@ -200,7 +200,7 @@
 .video { /*背景に固定する*/
   position: fixed;
   z-index: -20;
-  top: -336px;
+  top: -336px; /*%にしないとレスポンシブで高さがたりなくなる?*/
   width: 136%;
 }
 
@@ -208,7 +208,7 @@
   position: fixed;
   width: 100%;
   z-index: -10;
-  top: -136px;
+  top: -136px; /*%にしないとレスポンシブで高さがたりなくなる?*/
   width: 136%;
   height: 136%;
   opacity: 0.5; /*デザインは0.2*/
@@ -295,6 +295,7 @@
   justify-content: center;
   margin-right: 4.34%;
   margin-left: 4.34%;
+  margin-bottom: 0;
 }
 
 .c-card__about:nth-of-type(2n) {
@@ -307,6 +308,10 @@
   margin-right: 14.28%;
   background-color: #707070;
   text-align: center;
+}
+
+.c-card__about:nth-child(1) { /*カードを横並びに*/
+  margin-bottom: 0px;
 }
 
 .c-keyboad__jpg {
@@ -350,6 +355,32 @@
   margin-top: 64px;
 }
 
+.c-card__about__wrapper { /*カードを横並びに*/
+  display: flex;
+  justify-content: center;
+  margin-right: 4.34%;
+  margin-left: 4.34%;
+}
+
+@media screen and (max-width: 1000px) { /*タブレット*/
+  .c-card__about__wrapper { /*カードを横並びに*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4.34%;
+    margin-left: 4.34%;
+  }
+  .c-card__about {
+    width: 50vw;
+    min-width: 50%;
+    margin-right: 0;
+    background-color: #707070;
+    text-align: center;
+  }
+  .c-card__about:nth-child(1) { /*カードを横並びに*/
+    margin-bottom: 24px;
+  }
+}
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-product {
   position: relative;
@@ -394,6 +425,21 @@
   margin-right: 0;
 }
 
+@media screen and (max-width: 1000px) { /*タブレット*/
+  .p-product__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .c-product {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-skill {
   position: relative;
@@ -480,6 +526,30 @@
   color: rgb(0, 0, 0);
 }
 
+@media screen and (max-width: 1000px) { /*タブレット*/
+  .p-skill__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    min-width: 70.73%;
+  }
+  .c-skill__card {
+    position: relative;
+    width: 100%;
+    min-width: 23.57%;
+    height: 280px;
+    margin-right: 0;
+    margin-bottom: 24px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.75;
+    box-sizing: border-box;
+  }
+}
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-contact {
   position: relative;

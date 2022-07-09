@@ -43,3 +43,20 @@
 .c-product:nth-of-type(3n) {//(Xn): X = 右端の列の倍数
   margin-right: 0;
 }
+
+@media screen and (max-width:1000px) {/*タブレット*/
+  .p-product__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .c-product{
+    width:100% ;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}

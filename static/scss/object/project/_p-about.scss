@@ -33,6 +33,7 @@
   justify-content: center;
   margin-right: 4.34%;
   margin-left: 4.34%;
+  margin-bottom: 0;
 }
 
 .c-card__about:nth-of-type(2n) {//(Xn): X = 右端の列の倍数
@@ -45,6 +46,10 @@
   margin-right: 14.28%;
   background-color: #707070;
   text-align: center;
+}
+
+.c-card__about:nth-child(1){/*カードを横並びに*/
+  margin-bottom: 0px;
 }
 
 
@@ -89,4 +94,36 @@
   margin-right: 50%;
   margin-left: 50%;
   margin-top: 64px;
+}
+
+.c-card__about__wrapper{/*カードを横並びに*/
+  display: flex;
+  justify-content: center;
+  margin-right: 4.34%;
+  margin-left: 4.34%;
+}
+
+@media screen and (max-width:1000px) {/*タブレット*/
+
+  .c-card__about__wrapper{/*カードを横並びに*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 4.34%;
+    margin-left: 4.34%;
+  }
+
+  .c-card__about{
+    width: 50vw;
+    min-width: 50%;
+    margin-right: 0;
+    background-color: #707070;
+    text-align: center;
+  }
+
+  .c-card__about:nth-child(1){/*カードを横並びに*/
+    margin-bottom: 24px;
+  }
+
 }

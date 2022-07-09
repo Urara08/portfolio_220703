@@ -10,7 +10,7 @@
 .video{/*背景に固定する*/
   position: fixed;
   z-index: -20;
-  top:-336px;
+  top:-336px;/*%にしないとレスポンシブで高さがたりなくなる?*/
   width: 136%;
 }
 
@@ -18,7 +18,7 @@
   position: fixed;
   width: 100%;
   z-index: -10;
-  top: -136px;
+  top: -136px;/*%にしないとレスポンシブで高さがたりなくなる?*/
   width: 136%;
   height: 136%;
   opacity: 0.5;/*デザインは0.2*/
