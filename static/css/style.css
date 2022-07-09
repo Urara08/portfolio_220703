@@ -704,7 +704,7 @@ h2 span::after {
   display: block;
   text-align: center;
   font-weight: normal;
-  font-size: 24;
+  font-size: 1.66vw;
   color: rgb(0, 0, 0);
   line-height: 1;
 }
@@ -787,6 +787,12 @@ h2 span::after {
   }
   .c-skill__card__bottom {
     text-align: left;
+  }
+}
+@media screen and (max-width: 768px) { /*タブレット*/
+  .p-skill {
+    margin-right: 16px;
+    margin-left: 16px;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
