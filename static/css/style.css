@@ -639,7 +639,6 @@ h2 span::after {
 .c-skill__card {
   position: relative;
   width: 31.7%;
-  min-width: 23.57%;
   height: 460px;
   margin-right: 2.43%;
   margin-bottom: 24px;
@@ -664,6 +663,24 @@ h2 span::after {
   margin-right: auto;
   margin-left: auto;
   margin-top: 32px;
+}
+
+.c-skill__card__title-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: solid red 1px;
+}
+
+.c-skill__card__up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(99, 20, 139);
 }
 
 .c-tool {
@@ -694,7 +711,7 @@ h2 span::after {
   color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1280px) { /*タブレット*/
+@media screen and (max-width: 1200px) { /*タブレット*/
   .p-skill {
     margin-right: 122px;
     margin-left: 122px;
@@ -711,7 +728,6 @@ h2 span::after {
   .c-skill__card {
     position: relative;
     width: 65.38%;
-    min-width: 23.57%;
     height: 360px;
     margin: auto;
     margin-bottom: 24px;
@@ -737,12 +753,14 @@ h2 span::after {
   }
   .c-skill__card__up {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-direction: row;
     background-color: rgb(99, 20, 139);
   }
   .c-tool {
     display: block;
     width: 20.05%;
+    margin: auto;
     margin-bottom: 10px;
     line-height: 1.5;
     border: solid rgb(68, 11, 147) 1px;
