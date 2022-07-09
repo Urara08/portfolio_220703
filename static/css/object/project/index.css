@@ -528,19 +528,24 @@
 }
 
 @media screen and (max-width: 1000px) { /*タブレット*/
+  .p-skill {
+    margin-right: 122px;
+    margin-left: 122px;
+  }
   .p-skill__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
     flex-wrap: wrap;
-    min-width: 70.73%;
+    width: 100%;
+    min-width: 82.75%;
   }
   .c-skill__card {
     position: relative;
-    width: 100%;
+    width: 89.23%;
     min-width: 23.57%;
-    height: 280px;
-    margin-right: 0;
+    height: 464px;
+    margin: auto;
     margin-bottom: 24px;
     background-color: rgb(255, 255, 255);
     font-family: "Kaisei Tokumin", serif;
@@ -549,6 +554,14 @@
     color: rgb(0, 0, 0);
     line-height: 1.75;
     box-sizing: border-box;
+  }
+  .c-skill__card:nth-of-type(3n) {
+    margin-right: auto;
+  }
+  .c-tool {
+    width: 20.05%;
+    margin: auto;
+    margin-bottom: 8.42%;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
