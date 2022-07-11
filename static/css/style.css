@@ -642,13 +642,14 @@ h2 span::after {
   width: 31.7%;
   margin-right: 2.43%;
   margin-bottom: 24px;
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
 }
 
 .cardBox img {
   display: block;
   max-width: 77px;
-  margin: 0 auto 30px;
+  margin: 0 auto 16px;
 }
 
 .cardBox:nth-of-type(3n) {
@@ -660,7 +661,7 @@ h2 span::after {
   font-size: 130%;
   font-weight: bold;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .cardText p {
