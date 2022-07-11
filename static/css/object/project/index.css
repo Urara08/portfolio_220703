@@ -464,10 +464,8 @@
 
 .p-skill__wrapper {
   display: flex;
-  display: flex;
   flex-flow: row wrap;
-  min-width: 70.73%;
-  margin-left: 228px;
+  margin-right: 228px;
   margin-left: 228px;
   box-sizing: border-box;
   border: solid red 1px;
@@ -483,7 +481,7 @@
 
 .cardBox img {
   display: block;
-  max-width: 120px;
+  max-width: 77px;
   margin: 0 auto 30px;
 }
 
