@@ -641,13 +641,13 @@ h2 span::after {
   width: 31.7%;
   margin-right: 2.43%;
   margin-bottom: 24px;
-  background-color: #F8F9FA;
+  background-color: rgb(248, 249, 250);
   box-sizing: border-box;
 }
 
 .cardBox img {
   display: block;
-  max-width: 55px;
+  max-width: 5.34vw;
   margin: 0 auto 16px;
 }
 
@@ -669,11 +669,11 @@ h2 span::after {
   font-size: 1.1vw;
   line-height: 1.75;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .cardText {
-  margin: 5px 5px 5px;
+  margin: auto 5px;
 }
 
 .cardBox {
@@ -687,7 +687,15 @@ h2 span::after {
 
 .cardInner {
   background-color: rgb(255, 255, 255);
-  padding: 5px 10px 5pxs;
+  padding: 5px 10px 5px;
+}
+
+.cardText__title {
+  text-align: center;
+}
+
+.cardText__title:nth-of-type(2n) {
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -723,6 +731,19 @@ h2 span::after {
   }
   .cardText {
     margin-bottom: 0px;
+  }
+  .cardBox img {
+    display: block;
+    max-width: 10.02vw;
+    margin: 0 auto 8px;
+  }
+  .cardTtl {
+    text-align: center;
+    font-family: "Josefin Sans", ital;
+    font-size: 1.1vw;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 8px;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
