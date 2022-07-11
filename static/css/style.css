@@ -758,7 +758,7 @@ h2 span::after {
 }
 
 .contact-table {
-  width: 55.55vw;
+  width: 82.6%;
   margin: auto;
   margin-bottom: 80px;
   background-color: #FFFFFF;
@@ -824,6 +824,17 @@ textarea.form-textarea {
   border: solid red 1px;
 }
 
+@media screen and (max-width: 768px) { /*タブレット*/
+  .p-contact {
+    margin-right: 144px;
+    margin-left: 144px;
+  }
+  .contact-table {
+    width: 100%;
+    margin-bottom: 80px;
+    background-color: #FFFFFF;
+  }
+}
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-footer {
   position: relative;
