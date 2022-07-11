@@ -466,9 +466,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: start;
-  min-width: 90%;
-  margin-right: 228px;
-  margin-left: 228px;
+  width: 100%;
   box-sizing: border-box;
   border: solid red 1px;
 }
@@ -520,8 +518,8 @@
   .p-skill__wrapper {
     display: flex;
     flex-flow: column;
-    margin-right: 18.75%;
-    margin-left: 18.75%;
+    margin: auto;
+    width: 100%;
     border: solid red 1px;
   }
   .cardBox:nth-of-type(3n) {
