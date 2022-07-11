@@ -484,6 +484,28 @@
   margin-right: 0;
 }
 
+.cardBox img {
+  display: block;
+  max-width: 120px;
+  margin: 0 auto 30px;
+}
+
+.cardTtl {
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.cardText p {
+  margin-bottom: 20px;
+}
+
+.cardText {
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 768px) {
   .cardBox {
     width: 100%;
@@ -504,29 +526,6 @@
 @media screen and (max-width: 768px) {
   .cardBox {
     padding: 50px 20px 40px;
-  }
-}
-.cardBox img {
-  display: block;
-  max-width: 120px;
-  margin: 0 auto 30px;
-}
-
-.cardTtl {
-  text-align: center;
-  font-size: 130%;
-  font-weight: bold;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.cardText p {
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .cardText {
-    margin-bottom: 50px;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/

@@ -55,28 +55,6 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 768px) {
-	.cardBox {
-		width: 100%;
-		margin-bottom: 50px;
-	}
-	.cardBox:last-child {
-		margin-bottom: 20px;
-	}
-}
-
-.cardBox {
-	position: relative;
-	padding: 16px 20px 16px;
-	border: 2px solid #333333;
-	border-radius: 5px;
-	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
-}
-@media screen and (max-width: 768px) {
-	.cardBox {
-		padding: 50px 20px 40px;
-	}
-}
 
 .cardBox img {
 	display: block;
@@ -96,8 +74,33 @@
 .cardText p {
 	margin-bottom: 20px;
 }
+.cardText {
+  margin-bottom: 50px;
+}
+
+
 @media screen and (max-width: 768px) {
-	.cardText {
+	.cardBox {
+		width: 100%;
 		margin-bottom: 50px;
+	}
+	.cardBox:last-child {
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+.cardBox {
+	position: relative;
+	padding: 16px 20px 16px;
+	border: 2px solid #333333;
+	border-radius: 5px;
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 768px) {
+	.cardBox {
+		padding: 50px 20px 40px;
 	}
 }
