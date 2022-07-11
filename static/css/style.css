@@ -615,7 +615,7 @@ h2 span::after {
   margin-right: 228px;
   margin-left: 228px;
   padding-top: 80px;
-  padding-bottom: 104px;
+  padding-bottom: 80px;
 }
 
 .c-title--skill {
@@ -674,12 +674,13 @@ h2 span::after {
 }
 
 .cardText {
+  border: solid red 1px;
   margin-bottom: 50px;
 }
 
 .cardBox {
   position: relative;
-  padding: 32px 32px 32px;
+  padding: 32px;
   border: 2px solid #333333;
   border-radius: 5px;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
@@ -700,8 +701,9 @@ h2 span::after {
   .cardBox {
     width: 100%;
     margin-bottom: 50px;
-    padding: 32px 40px 32px;
+    padding: 24px 40px 24px;
     box-sizing: border-box;
+    background-color: azure;
   }
   .cardBox:last-child {
     margin-bottom: 20px;
@@ -715,6 +717,9 @@ h2 span::after {
   }
   .cardText {
     margin-bottom: 50px;
+  }
+  .cardText {
+    margin-bottom: 0px;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
