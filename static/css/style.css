@@ -664,9 +664,17 @@ h2 span::after {
   margin-bottom: 16px;
 }
 
-.cardText p {
+.cardText__title {
+  text-align: center;
+}
+
+.cardText__title:nth-of-type(2n) {
+  margin-bottom: 5px;
+}
+
+.cardText__dis {
   font-family: "Kaisei Tokumin", serif;
-  font-size: 1.1vw;
+  font-size: 16px;
   line-height: 1.75;
   color: #000000;
   margin-bottom: 0;
@@ -688,14 +696,6 @@ h2 span::after {
 .cardInner {
   background-color: rgb(255, 255, 255);
   padding: 5px 10px 5px;
-}
-
-.cardText__title {
-  text-align: center;
-}
-
-.cardText__title:nth-of-type(2n) {
-  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -726,11 +726,8 @@ h2 span::after {
     margin-bottom: 16px;
   }
   .cardText {
-    margin-bottom: 50px;
-    font-size: 2.08vw;
-  }
-  .cardText {
     margin-bottom: 0px;
+    font-size: 2.08vw;
   }
   .cardBox img {
     display: block;
