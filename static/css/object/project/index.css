@@ -482,7 +482,7 @@
 
 .cardBox img {
   display: block;
-  max-width: 77px;
+  max-width: 55px;
   margin: 0 auto 16px;
 }
 
@@ -492,6 +492,7 @@
 
 .cardTtl {
   text-align: center;
+  font-family: "Josefin Sans", ital;
   font-size: 1.1vw;
   font-weight: bold;
   line-height: 1.5;
@@ -499,8 +500,10 @@
 }
 
 .cardText p {
+  font-family: "Kaisei Tokumin", serif;
   font-size: 1.1vw;
   line-height: 1.75;
+  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -531,11 +534,21 @@
   .cardBox {
     width: 100%;
     margin-bottom: 50px;
-    padding: 50px 20px 40px;
+    padding: 32px 40px 32px;
     box-sizing: border-box;
   }
   .cardBox:last-child {
     margin-bottom: 20px;
+  }
+  .cardTtl {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .cardText {
+    margin-bottom: 50px;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
