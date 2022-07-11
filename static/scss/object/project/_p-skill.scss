@@ -30,7 +30,7 @@
   width: 100%;
 
   box-sizing: border-box;
-  border: solid red 1px;
+
 }
 
 
@@ -39,7 +39,7 @@
   width: 31.7%;
   margin-right: 2.43%;
   margin-bottom: 24px;
-  background-color: rgb(255, 255, 255);
+  background-color: #F8F9FA;
   box-sizing: border-box;
 }
 
@@ -76,8 +76,8 @@
 }
 
 .cardText {
-  border: solid red 1px;
-  margin-bottom: 50px;
+
+  margin: 5px 5px 5px;
 }
 
 
@@ -90,6 +90,10 @@
 	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
 }
+.cardInner{
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px 5pxs;
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -99,7 +103,7 @@
     margin: auto;
     width: 100%;
 
-    border: solid red 1px;
+
   }
   .cardBox:nth-of-type(3n) {//(Xn): X = 右端の列の倍数
     margin-right: auto;
@@ -119,7 +123,7 @@
 
 .cardTtl {
 	text-align: center;
-	font-size: 16px;
+	font-size: 2.08vw;
 	font-weight: bold;
 	line-height: 1.5;
 	margin-bottom: 16px;
@@ -131,6 +135,7 @@
 
 .cardText {
   margin-bottom: 50px;
+  font-size: 2.08vw;
 }
 .cardText {
 
