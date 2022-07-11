@@ -465,6 +465,8 @@
 .p-skill__wrapper {
   display: flex;
   flex-flow: row wrap;
+  justify-content: start;
+  min-width: 90%;
   margin-right: 228px;
   margin-left: 228px;
   box-sizing: border-box;
@@ -505,15 +507,6 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 768px) {
-  .cardBox {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .cardBox:last-child {
-    margin-bottom: 20px;
-  }
-}
 .cardBox {
   position: relative;
   padding: 16px 20px 16px;
@@ -523,10 +516,25 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+  .p-skill__wrapper {
+    display: flex;
+    flex-flow: column;
+    margin-right: 18.75%;
+    margin-left: 18.75%;
+    border: solid red 1px;
+  }
+  .cardBox:nth-of-type(3n) {
+    margin-right: auto;
+  }
   .cardBox {
+    width: 100%;
+    margin-bottom: 50px;
     padding: 50px 20px 40px;
     box-sizing: border-box;
+  }
+  .cardBox:last-child {
+    margin-bottom: 20px;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
