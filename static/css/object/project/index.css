@@ -446,8 +446,6 @@
   position: relative;
   z-index: 10;
   max-width: 100%;
-  margin-right: 228px;
-  margin-left: 228px;
   padding-top: 80px;
   padding-bottom: 104px;
 }
@@ -464,170 +462,71 @@
 
 .p-skill__wrapper {
   display: flex;
-  justify-content: start;
   flex-wrap: wrap;
-  min-width: 70.73%;
+  margin-left: 228px;
+  margin-left: 228px;
+  box-sizing: border-box;
+  border: solid red 1px;
 }
 
-.c-skill__card {
-  position: relative;
-  width: 31.7%;
-  height: 460px;
+.cardContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cardBox {
+  width: 20%;
   margin-right: 2.43%;
   margin-bottom: 24px;
-  background-color: rgb(255, 255, 255);
-  font-family: "Kaisei Tokumin", serif;
-  font-weight: normal;
-  font-size: 24px;
-  color: rgb(0, 0, 0);
-  line-height: 1.75;
-  box-sizing: border-box;
 }
 
-.c-skill__card:nth-of-type(3n) {
+.cardBox:nth-of-type(3n) {
   margin-right: 0;
 }
 
-.text-area {
-  position: relative;
-  z-index: 30;
-  width: 16.11vw;
-  height: 384px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 32px;
-  padding: 2% 5%;
-  background-color: rgb(248, 249, 250);
-  box-sizing: border-box;
-}
-
-.c-skill__card__title-group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.c-skill__card__up {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-.c-skill__card__dis.c-tool {
-  width: 33.18%;
-  margin: auto;
-  margin-bottom: 8.42%;
-  box-sizing: border-box;
-}
-
-.c-skill__card__dis {
-  font-family: "Kaisei Tokumin", serif;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgb(0, 0, 0);
-  line-height: 1.75;
-}
-
-.c-skill__card__title {
-  display: block;
-  text-align: center;
-  font-weight: normal;
-  font-size: 1.66vw;
-  white-space: nowrap;
-  color: rgb(0, 0, 0);
-  line-height: 1;
-}
-
-.c-skill__card__title.bottom {
-  margin-bottom: 16px;
-  color: rgb(0, 0, 0);
-}
-
-@media screen and (max-width: 1280px) { /*幅の狭いPC*/
-  .p-skill {
-    margin-right: 122px;
-    margin-left: 122px;
-  }
-  .p-skill__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    flex-wrap: wrap;
+@media screen and (max-width: 768px) {
+  .cardBox {
     width: 100%;
-    min-width: 82.75%;
+    margin-bottom: 50px;
   }
-  .c-skill__card {
-    position: relative;
-    width: 65.38%;
-    height: 360px;
-    margin: auto;
-    margin-bottom: 24px;
-    background-color: rgb(255, 255, 255);
-    font-family: "Kaisei Tokumin", serif;
-    font-weight: normal;
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    line-height: 1.75;
-    box-sizing: border-box;
-  }
-  .text-area {
-    width: 82.77%;
-    height: 300px;
-    margin: 32px 8.62%;
-    padding: 2% 5%;
-    background-color: rgb(248, 249, 250);
-    box-sizing: border-box;
-  }
-  .c-skill__card:nth-of-type(3n) {
-    margin-right: auto;
-  }
-  .c-skill__card__up {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .c-tool {
-    display: block;
-    width: 18%;
-    margin-top: 32px;
-    margin-left: 9.89%;
-    margin-right: 6.25%;
-    margin-bottom: 5px;
-    line-height: 1.5;
-    box-sizing: border-box;
-    border: solid rgb(255, 255, 255) 1px;
-  }
-  .c-skill__card__title-group {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    margin-left: 0;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
-  .c-skill__card__title {
-    display: inline-block;
-    text-align: left;
-    font-weight: normal;
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    line-height: 1.75;
-  }
-  .c-skill__card__bottom {
-    text-align: left;
+  .cardBox:last-child {
+    margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 768px) { /*タブレット*/
-  .p-skill {
-    margin-right: 16px;
-    margin-left: 16px;
+.cardBox {
+  position: relative;
+  padding: 16px 20px 16px;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+  .cardBox {
+    padding: 50px 20px 40px;
+  }
+}
+.cardBox img {
+  display: block;
+  max-width: 120px;
+  margin: 0 auto 30px;
+}
+
+.cardTtl {
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.cardText p {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .cardText {
+    margin-bottom: 50px;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
