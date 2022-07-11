@@ -6,7 +6,8 @@
   z-index: 10;
   max-width: 100%;
 
-
+  margin-right: 228px;
+  margin-left: 228px;
   padding-top: 80px;
   padding-bottom: 104px;
 }
@@ -26,8 +27,10 @@
   display: flex;
 
 
-  flex-wrap: wrap;
+	display: flex;
+	flex-flow: row wrap;
 
+  min-width: 70.73%;
   margin-left: 228px;
 
   margin-left: 228px;
@@ -39,20 +42,14 @@
 
 
 
-.cardContainer {
-	display: flex;
-	flex-flow: row wrap;
-
-}
 
 .cardBox {
-  width: 20%;
+  position:relative;
+  width: 31.7%;
+
   margin-right: 2.43%;
   margin-bottom: 24px;
-}
-
-.cardBox:nth-of-type(3n) {//(Xn): X = 右端の列の倍数
-  margin-right: 0;
+  box-sizing: border-box;
 }
 
 
@@ -61,6 +58,13 @@
 	max-width: 120px;
 	margin: 0 auto 30px;
 }
+
+.cardBox:nth-of-type(3n) {//(Xn): X = 右端の列の倍数
+  margin-right: 0;
+}
+
+
+
 
 .cardTtl {
 	text-align: center;
@@ -98,9 +102,11 @@
 	border: 2px solid #333333;
 	border-radius: 5px;
 	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
 	.cardBox {
 		padding: 50px 20px 40px;
+    box-sizing: border-box;
 	}
 }
