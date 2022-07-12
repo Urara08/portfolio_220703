@@ -63,15 +63,16 @@
 }
 }
 
-@media screen and (max-width:375px) {/*タブレット*/
+@media screen and (max-width:376px) {/*タブレット*/
 
   .p-hero{
     position: relative;
 
     max-width: 100%;
+    min-width: 375px;
     height:0;
     padding-bottom: 132.2%;/*アスペクト比縦長にならない！*/
-
+    overflow: hidden;
   }
 
   .c-copy--1{/*わかりやすいデザインをめざしています*/

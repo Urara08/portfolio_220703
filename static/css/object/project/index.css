@@ -239,16 +239,17 @@
   .video { /*背景に固定する*/
     position: fixed;
     z-index: -20;
-    top: -168px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    width: 384%;
+    top: -504px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    right: 50%;
+    width: 136%;
   }
   .video__filter {
     position: fixed;
     width: 100%;
     z-index: -10;
-    top: -313x; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    top: -313px; /*%にしないとレスポンシブで高さがたりなくなる?*/
     width: 136%;
-    height: auto;
+    height: 136%;
     opacity: 0.5; /*デザインは0.2*/
     background-color: black;
   }
@@ -311,12 +312,14 @@
     line-height: 1.5;
   }
 }
-@media screen and (max-width: 375px) { /*タブレット*/
+@media screen and (max-width: 376px) { /*タブレット*/
   .p-hero {
     position: relative;
     max-width: 100%;
+    min-width: 375px;
     height: 0;
     padding-bottom: 132.2%; /*アスペクト比縦長にならない！*/
+    overflow: hidden;
   }
   .c-copy--1 { /*わかりやすいデザインをめざしています*/
     position: absolute;

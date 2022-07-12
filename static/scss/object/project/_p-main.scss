@@ -34,18 +34,19 @@
   .video{/*背景に固定する*/
     position: fixed;
     z-index: -20;
-    top:-168px;/*%にしないとレスポンシブで高さがたりなくなる?*/
-    width: 384%;
+    top:-504px;/*%にしないとレスポンシブで高さがたりなくなる?*/
+    right: 50%;
+    width: 136%;
   }
 
   .video__filter{
     position: fixed;
     width: 100%;
     z-index: -10;
-    top: -313x;/*%にしないとレスポンシブで高さがたりなくなる?*/
+    top: -313px;/*%にしないとレスポンシブで高さがたりなくなる?*/
 
     width: 136%;
-    height: auto;
+    height: 136%;
     opacity: 0.5;/*デザインは0.2*/
     background-color: black;
 
