@@ -181,7 +181,7 @@ border-left: 1px solid #707070;
   .p-header{
     position: relative;
     z-index: 20;
-
+    width: 100%;
     margin-right: 10.66%;
     margin-left: 12.8%;
 
@@ -189,5 +189,15 @@ border-left: 1px solid #707070;
     flex-direction: row;//ロゴとボタンを横並びに
     justify-content: space-between;//両端にはなす
     box-sizing: border-box;
+  }
+
+  .p-header__menu{//メニューは隠す
+    display: none;
+  }
+
+  .p-header__title{
+    width: 42.66%;
+    height: 51.78px;
+    margin-left: 20px;//マージンから40px
   }
    }
