@@ -35,16 +35,28 @@
 
 .c-copy--1{/*わかりやすいデザインをめざしています*/
   position:absolute;
-  z-index: 40;
+  z-index: 50;
   top:  18%;
   left:  50% ;/*真ん中に配置*/
   transform:  translate(-50%, -50%) ;/*真ん中に配置*/
   -webkit-transform:  translate(-50%, -50%) ;
   -ms-transform:  translate(-50%, -50%) ;
-  width: 56.52%;
+  width:70%;
   font-family: 'Kaisei Tokumin', serif;
   font-weight:bold;
   font-size: 40px;
   line-height: 1.5;
   color: #ffffff;
+}
+
+@media screen and (max-width:1200px) {/*タブレット*/
+
+.c-copy--1{/*わかりやすいデザインをめざしています*/
+  position: absolute;
+  top: 22%;
+  width:80%;
+  font-weight:bold;
+  font-size: 32px;
+  line-height: 1.5;
+}
 }
