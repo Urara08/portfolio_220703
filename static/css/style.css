@@ -410,6 +410,7 @@ h2 span::after {
   z-index: -30;
   top: -1136px; /*%にしないとレスポンシブで高さがたりなくなる?*/
   right: -1000px;
+  left: -1900px;
   width: 250%;
   height: 250%;
 }
@@ -425,14 +426,25 @@ h2 span::after {
   background-color: black;
 }
 
+@media screen and (max-width: 1280px) { /*タブレット*/
+  .video { /*背景に固定する*/
+    position: fixed;
+    z-index: -30;
+    top: -1000px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    right: -1000px;
+    width: 300%;
+    height: 300%;
+  }
+}
 @media screen and (max-width: 1000px) { /*タブレット*/
   .video { /*背景に固定する*/
     position: fixed;
     z-index: -30;
     top: -1000px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: 0;
-    width: 300%;
-    height: 300%;
+    right: -1000px;
+    left: -1900px;
+    width: 400%;
+    height: 400%;
   }
 }
 @media screen and (max-width: 678px) { /*タブレット*/
@@ -440,7 +452,8 @@ h2 span::after {
     position: fixed;
     z-index: -30;
     top: -800px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: 0px;
+    right: -1000px;
+    left: -1000px;
     width: 390%;
     height: 390%;
   }
@@ -453,7 +466,8 @@ h2 span::after {
     position: fixed;
     z-index: -20;
     top: -500px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: 0;
+    right: -500px;
+    left: -500px;
     width: 330%;
     height: 330%;
   }
