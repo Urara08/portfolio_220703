@@ -517,10 +517,10 @@ h2 span::after {
   }
   .c-copy--1 { /*わかりやすいデザインをめざしています*/
     position: absolute;
-    top: 22%;
+    top: 36.54%;
     width: 80%;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 16px;
     line-height: 1.5;
   }
   .c-picture__wrapper { /*写真のラッパー*/
