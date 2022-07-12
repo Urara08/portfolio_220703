@@ -82,6 +82,12 @@
     line-height: 1.5;
   }
 
+  .c-picture__wrapper{/*写真のラッパー*/
+    display: flex;
+    justify-content: center;
+    margin-top: 154px;
+  }
+
 
 .c-picture--top{/*白い枠--電球の写真*/
   position: absolute;
