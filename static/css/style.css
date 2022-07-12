@@ -422,6 +422,15 @@ h2 span::after {
   background-color: black;
 }
 
+@media screen and (max-width: 1000px) { /*タブレット*/
+  .video { /*背景に固定する*/
+    position: fixed;
+    z-index: -30;
+    top: -126px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    right: 0;
+    width: 236%;
+  }
+}
 @media screen and (max-width: 375px) { /*スマホ*/
   .video__wrapper {
     max-width: 100%;
@@ -506,7 +515,8 @@ h2 span::after {
     line-height: 1.5;
   }
 }
-@media screen and (max-width: 376px) { /*タブレット*/
+@media screen and (max-width: 768px) { /*SP*/ }
+@media screen and (max-width: 376px) { /*SP*/
   .p-hero {
     position: relative;
     max-width: 100%;
