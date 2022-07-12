@@ -467,9 +467,9 @@
 .p-skill {
   position: relative;
   z-index: 10;
-  max-width: 100%;
-  margin-right: 228px;
-  margin-left: 228px;
+  max-width: 100%; /*ここにmin-widthすると中心がずれる*/
+  margin-right: 15.76%;
+  margin-left: 15.76%;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -488,13 +488,14 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: start;
-  width: 100%;
+  width: 100%; /*ここにmin-widthは意味がない*/
+  margin: auto;
   box-sizing: border-box;
 }
 
 .cardBox {
   position: relative;
-  width: 31.7%;
+  width: 31.7%; /*ここにmin-widthは意味がない*/
   margin-right: 2.43%;
   margin-bottom: 24px;
   background-color: rgb(248, 249, 250);
@@ -559,7 +560,13 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+  /*cardが縦に伸びすぎないように1200pxも調整*/
+  .p-skill {
+    position: relative;
+    margin-right: 18.75%;
+    margin-left: 18.75%;
+  }
   .p-skill__wrapper {
     display: flex;
     flex-flow: column;
