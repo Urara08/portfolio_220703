@@ -32,6 +32,7 @@
 .c-card__about__wrapper{/*カードを横並びに*/
   display: flex;
   justify-content: center;
+  width: 100%;
   margin-right: 4.34%;
   margin-left: 4.34%;
   margin-bottom: 0;
@@ -43,7 +44,6 @@
 
 .c-card__about{
   width: 25.03vw;
-  min-width: 25%;
   margin-right: 14.28%;
   background-color: #707070;
   text-align: center;
@@ -91,40 +91,69 @@
 }
 
 .p-about__pic--me{
-  width: 15.76%;
-  margin-right: 50%;
-  margin-left: 50%;
+  width: 15.76% ;
+  margin: auto;
   margin-top: 64px;
 }
 
 .c-card__about__wrapper{/*カードを横並びに*/
   display: flex;
   justify-content: center;
+  width: 100%;
   margin-right: 4.34%;
   margin-left: 4.34%;
 }
 
 @media screen and (max-width:1000px) {/*タブレット*/
+  .p-about{
+    margin-right: 6.25%;
+    margin-left: 6.25%;
+  }
+
+  .c-title--about{
+    margin-bottom: 72px;
+  }
+
 
   .c-card__about__wrapper{/*カードを横並びに*/
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    width: 100%;
     margin-right: 4.34%;
     margin-left: 4.34%;
   }
 
   .c-card__about{
-    width: 50vw;
-    min-width: 50%;
-    margin-right: 0;
+    width: 71.32%;
+    margin-right: auto;
+
     background-color: #707070;
     text-align: center;
   }
 
+  .c-keyboad__jpg{
+    width: 100%;
+    opacity: 1;
+    border: solid red 1px;
+  }
+
+
+
   .c-card__about:nth-child(1){/*カードを横並びに*/
     margin-bottom: 24px;
+  }
+
+  .c-card__about__wrapper{/*カードを横並びに*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 13.35%;
+    margin-left: 13.35%;
+  }
+
+  .p-about__pic--me{
+    width: 21.51% ;
   }
 
 }
