@@ -34,22 +34,22 @@
   .video{/*背景に固定する*/
     position: fixed;
     z-index: -20;
-    top:-504px;/*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: 50%;
-    width: 136%;
+    top:-1300px;/*%にしないとレスポンシブで高さがたりなくなる?*/
+    right: 0;
+    width: 260%;
+    height: 260%;
   }
 
   .video__filter{
     position: fixed;
-    width: 100%;
+    width: 400%;
     z-index: -10;
-    top: -313px;/*%にしないとレスポンシブで高さがたりなくなる?*/
+    top: 0px;/*%にしないとレスポンシブで高さがたりなくなる?*/
 
-    width: 136%;
-    height: 136%;
-    opacity: 0.5;/*デザインは0.2*/
+
+    height: 336%;
     background-color: black;
-
+    opacity: 0.2;/*デザインは0.2*/
   }
 
 }
