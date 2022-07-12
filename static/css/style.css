@@ -727,7 +727,7 @@ h2 span::after {
 }
 
 @media screen and (max-width: 1200px) {
-  /*cardが縦に伸びすぎないように1200pxも調整*/
+  /*cardが縦に伸びすぎないように1200pxで調整*/
   .p-skill {
     position: relative;
     margin-right: 18.75%;
