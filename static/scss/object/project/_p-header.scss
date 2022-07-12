@@ -3,8 +3,8 @@
 /*使用例.button { background-color: var.$colorGR;}*/
 
 .p-header{
-  position: fixed;
-  z-index: 20;
+  position: relative;
+  z-index:30;
   height: 136px;
   margin-right: 260px;
   margin-left: 260px;

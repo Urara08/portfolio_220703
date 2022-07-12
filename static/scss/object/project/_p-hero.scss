@@ -12,6 +12,8 @@
 }
 
 .c-picture__wrapper{/*写真のラッパー*/
+  position: relative;
+  z-index: 30;
   display: flex;
   justify-content: center;
   margin-top: 64px;

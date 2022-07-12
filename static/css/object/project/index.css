@@ -27,8 +27,8 @@
 
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-header {
-  position: fixed;
-  z-index: 20;
+  position: relative;
+  z-index: 30;
   height: 136px;
   margin-right: 260px;
   margin-left: 260px;
@@ -217,8 +217,10 @@
 .video { /*背景に固定する*/
   position: fixed;
   z-index: -30;
-  top: -336px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-  width: 136%;
+  top: -1136px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+  right: -1000px;
+  width: 250%;
+  height: 250%;
 }
 
 .video__filter {
@@ -236,9 +238,20 @@
   .video { /*背景に固定する*/
     position: fixed;
     z-index: -30;
-    top: -126px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    top: -1000px; /*%にしないとレスポンシブで高さがたりなくなる?*/
     right: 0;
-    width: 236%;
+    width: 300%;
+    height: 300%;
+  }
+}
+@media screen and (max-width: 678px) { /*タブレット*/
+  .video { /*背景に固定する*/
+    position: fixed;
+    z-index: -30;
+    top: -800px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    right: 0px;
+    width: 390%;
+    height: 390%;
   }
 }
 @media screen and (max-width: 375px) { /*スマホ*/
@@ -278,6 +291,8 @@
 }
 
 .c-picture__wrapper { /*写真のラッパー*/
+  position: relative;
+  z-index: 30;
   display: flex;
   justify-content: center;
   margin-top: 64px;
