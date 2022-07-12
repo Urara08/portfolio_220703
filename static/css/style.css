@@ -100,6 +100,7 @@ button {
 
 .l-header {
   position: relative;
+  width: 100%;
   z-index: 20;
   background-color: #FEDA1C;
 }
@@ -217,7 +218,7 @@ h2 span::after {
 
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-header {
-  position: relative;
+  position: fixed;
   z-index: 20;
   height: 136px;
   margin-right: 260px;

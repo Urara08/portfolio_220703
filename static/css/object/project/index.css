@@ -27,7 +27,7 @@
 
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-header {
-  position: relative;
+  position: fixed;
   z-index: 20;
   height: 136px;
   margin-right: 260px;
