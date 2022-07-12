@@ -114,7 +114,6 @@ border-left: 1px solid #707070;
 .bar_bottom{
   bottom: 10px;
 }
-
 }
 
 @media screen and (max-width:1280px) {/*タブレット*/
@@ -136,7 +135,7 @@ border-left: 1px solid #707070;
     box-sizing: border-box;
   }
 
-  /* 以下、ハンバーガーボタン */
+  /* 以下、ハンバーガーボタン　spとサイズ同様 */
 .burger-btn{
   display: block;
   width: 40px;
@@ -183,8 +182,8 @@ border-left: 1px solid #707070;
     position: relative;
     z-index: 20;
 
-    margin-right: 8.53%;
-    margin-left: 8.53%;
+    margin-right: 10.66%;
+    margin-left: 12.8%;
 
     display: flex;
     flex-direction: row;//ロゴとボタンを横並びに
