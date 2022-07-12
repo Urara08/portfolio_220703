@@ -239,10 +239,10 @@
   .video { /*背景に固定する*/
     position: fixed;
     z-index: -20;
-    top: -1300px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    top: -500px; /*%にしないとレスポンシブで高さがたりなくなる?*/
     right: 0;
-    width: 260%;
-    height: 260%;
+    width: 330%;
+    height: 330%;
   }
   .video__filter {
     position: fixed;
