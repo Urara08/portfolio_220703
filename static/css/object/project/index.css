@@ -216,7 +216,7 @@
 
 .video { /*背景に固定する*/
   position: fixed;
-  z-index: -20;
+  z-index: -30;
   top: -336px; /*%にしないとレスポンシブで高さがたりなくなる?*/
   width: 136%;
 }
@@ -247,8 +247,12 @@
   .video__filter {
     position: fixed;
     width: 400%;
+    height: 400%;
     z-index: -10;
-    top: 0px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    top: 0x;
+    left: 0;
+    opacity: 0.7; /*デザインは0.2*/
+    background-color: black;
     height: 336%;
     background-color: black;
     opacity: 0.2; /*デザインは0.2*/
