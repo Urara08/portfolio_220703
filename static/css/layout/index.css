@@ -1,7 +1,6 @@
-@charset "UTF-8";
 .l-body {
   position: relative;
-  min-width: 920px; /*カードのテキスト部分を潰さない*/
+  overflow: hidden;
 }
 
 .l-header {

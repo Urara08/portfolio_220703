@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -50,6 +51,30 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+html {
+  text-decoration: none; /*リテキストの装飾を行わない*/
+  box-sizing: border-box; /*padding・borderを含めてサイズを指定する*/
+  list-style: none; /*リストの装飾は表示しない*/
+}
+
+body {
+  min-width: 375px;
+  min-height: 100vh; /*ブラウザの高さいっぱいに要素を広げる*/
+}
+
+img, background {
+  max-width: 100%; /*最大幅*/
+}
+
+ul, li {
+  list-style: none; /*リストの装飾をしない*/
+  text-decoration: none; /*文字の装飾をしない*/
+}
+
+a {
+  text-decoration: none;
 }
 
 button {

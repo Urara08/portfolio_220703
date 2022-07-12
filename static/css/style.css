@@ -53,6 +53,30 @@ table {
   border-spacing: 0;
 }
 
+html {
+  text-decoration: none; /*リテキストの装飾を行わない*/
+  box-sizing: border-box; /*padding・borderを含めてサイズを指定する*/
+  list-style: none; /*リストの装飾は表示しない*/
+}
+
+body {
+  min-width: 375px;
+  min-height: 100vh; /*ブラウザの高さいっぱいに要素を広げる*/
+}
+
+img, background {
+  max-width: 100%; /*最大幅*/
+}
+
+ul, li {
+  list-style: none; /*リストの装飾をしない*/
+  text-decoration: none; /*文字の装飾をしない*/
+}
+
+a {
+  text-decoration: none;
+}
+
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -71,7 +95,7 @@ button {
 
 .l-body {
   position: relative;
-  min-width: 920px; /*カードのテキスト部分を潰さない*/
+  overflow: hidden;
 }
 
 .l-header {
@@ -207,7 +231,7 @@ h2 span::after {
 }
 
 .p-header__title {
-  width: 6.04%;
+  width: auto;
   height: 55.63px;
   margin-left: 40px;
 }
@@ -315,6 +339,7 @@ h2 span::after {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
     box-sizing: border-box;
   }
   /* 以下、ハンバーガーボタン */
@@ -348,14 +373,18 @@ h2 span::after {
 }
 @media screen and (max-width: 375px) { /*スマホ*/
   .p-header {
+    height: 96px;
     margin-right: 32px;
     margin-left: 42px;
+    padding-top: 22px;
+    padding-bottom: 22.1px;
+    box-sizing: border-box;
   }
   .p-header__menu {
     display: none;
   }
   .p-header__title {
-    width: 42.66%;
+    width: auto;
     height: 51.78px;
     margin-left: 2.6%;
   }
@@ -366,6 +395,7 @@ h2 span::after {
     position: relative;
     z-index: 40;
     margin-top: 8px;
+    margin-right: 2.6%;
     border: none;
   }
 }
@@ -394,14 +424,12 @@ h2 span::after {
 
 @media screen and (max-width: 375px) { /*スマホ*/
   .video__wrapper {
-    position: fixed;
-    z-index: -20;
     max-width: 100%;
   }
   .video { /*背景に固定する*/
     position: fixed;
     z-index: -20;
-    top: -336px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    top: -168px; /*%にしないとレスポンシブで高さがたりなくなる?*/
     width: 384%;
   }
   .video__filter {
@@ -409,8 +437,8 @@ h2 span::after {
     width: 100%;
     z-index: -10;
     top: -313x; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    width: 384%;
-    height: 384%;
+    width: 136%;
+    height: auto;
     opacity: 0.5; /*デザインは0.2*/
     background-color: black;
   }
@@ -476,10 +504,9 @@ h2 span::after {
 @media screen and (max-width: 375px) { /*タブレット*/
   .p-hero {
     position: relative;
-    z-index: 0;
     max-width: 100%;
     height: 0;
-    padding-bottom: 132.2%;
+    padding-bottom: 132.2%; /*アスペクト比縦長にならない！*/
   }
   .c-copy--1 { /*わかりやすいデザインをめざしています*/
     position: absolute;

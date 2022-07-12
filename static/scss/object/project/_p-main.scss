@@ -1,6 +1,5 @@
 @use '../utility' as var;
 /*使用例.button { background-color: var.$colorGR;}*/
-
 .video__wrapper{
   width: 100%;
 }
@@ -11,7 +10,6 @@
   top:-336px;/*%にしないとレスポンシブで高さがたりなくなる?*/
   width: 136%;
 }
-
 .video__filter{
   position: fixed;
   width: 100%;
@@ -27,16 +25,16 @@
 @media screen and (max-width:375px) {/*スマホ*/
 
 
+
+
   .video__wrapper{
-    position: fixed;
-    z-index: -20;
     max-width: 100%;
   }
 
   .video{/*背景に固定する*/
     position: fixed;
     z-index: -20;
-    top:-336px;/*%にしないとレスポンシブで高さがたりなくなる?*/
+    top:-168px;/*%にしないとレスポンシブで高さがたりなくなる?*/
     width: 384%;
   }
 
@@ -45,8 +43,9 @@
     width: 100%;
     z-index: -10;
     top: -313x;/*%にしないとレスポンシブで高さがたりなくなる?*/
-    width: 384%;
-    height: 384%;
+
+    width: 136%;
+    height: auto;
     opacity: 0.5;/*デザインは0.2*/
     background-color: black;
 

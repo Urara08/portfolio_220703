@@ -20,7 +20,7 @@
 
 
 .p-header__title{
-  width: 6.04%;
+  width: auto;
   height: 55.63px;
   margin-left: 40px;//マージンから40px
 }
@@ -142,6 +142,7 @@ border-left: 1px solid #707070;
     display: flex;
     flex-direction: row;//ロゴとメニューを横並びに
     justify-content: space-between;//両端にはなす
+    overflow: hidden;
     box-sizing: border-box;
   }
 
@@ -177,10 +178,12 @@ border-left: 1px solid #707070;
 
 @media screen and (max-width:375px) {/*スマホ*/
   .p-header{
+    height: 96px;
     margin-right: 32px;
     margin-left: 42px;
-
-
+    padding-top: 22px;
+    padding-bottom: 22.1px;
+    box-sizing: border-box;
   }
 
   .p-header__menu{//メニューは隠す
@@ -188,7 +191,7 @@ border-left: 1px solid #707070;
   }
 
   .p-header__title{
-    width: 42.66%;
+    width: auto;
     height: 51.78px;
     margin-left: 2.6%;//マージンから40px
   }
@@ -200,6 +203,7 @@ border-left: 1px solid #707070;
     position: relative;
     z-index: 40;
     margin-top: 8px;
+    margin-right: 2.6%;//マージンから40px
     border:none;
   }
    }
