@@ -24,7 +24,7 @@
   background-color: black;
 
 }
-@media screen and (max-width:1280px) {/*タブレット*/
+@media screen and (max-width:1440px) {/*タブレット*/
 
 .video{/*背景に固定する*/
   position: fixed;
@@ -32,11 +32,12 @@
   top:-1000px;/*%にしないとレスポンシブで高さがたりなくなる?*/
     right: -1000px;
 
+
   width: 300%;
   height: 300%;
 }
 }
-@media screen and (max-width:1000px) {/*タブレット*/
+@media screen and (max-width:1280px) {/*タブレット*/
 
   .video{/*背景に固定する*/
     position: fixed;
