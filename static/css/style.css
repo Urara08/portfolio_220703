@@ -1343,6 +1343,7 @@ textarea.form-textarea {
     text-decoration: none;
   }
 }
+@media screen and (max-width: 1400px) { /*SP*/ }
 /**
 * Foundation
 * ========================== */
