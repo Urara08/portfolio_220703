@@ -1056,7 +1056,7 @@ textarea.form-textarea {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1280px) { /*タブレット*/
+@media screen and (max-width: 1400px) { /*タブレット*/
   .p-details {
     max-width: 100%;
     min-width: 60.93%;
