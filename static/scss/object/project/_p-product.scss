@@ -19,6 +19,7 @@
   font-size: 40px;
   color: #ffffff;
   line-height: 1.5;
+  border: solid red 1px;
 }
 
 
@@ -59,4 +60,28 @@
     margin-right: 0;
     margin-bottom: 0;
   }
+
+  .c-title--product{
+    margin-left: 0px;
+
+  }
+}
+
+@media screen and (max-width:375px) {/*タブレット*/
+  .p-product__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .p-product{
+    width:100% ;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+
 }
