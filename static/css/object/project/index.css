@@ -236,8 +236,8 @@
   /*縦横幅指定*/
   width: 130.553vh;
   height: 76.59vw;
-  min-height: 200%;
-  min-width: 200%;
+  min-height: 250%;
+  min-width: 250%;
 }
 
 .video__filter {
@@ -331,6 +331,13 @@
 }
 
 @media screen and (max-width: 1200px) { /*タブレット*/
+  .p-hero {
+    position: relative;
+    z-index: 0;
+    max-width: 100%;
+    height: 0;
+    padding-bottom: 62.25%;
+  }
   .c-copy--1 { /*わかりやすいデザインをめざしています*/
     position: absolute;
     top: 22%;
@@ -343,11 +350,10 @@
 @media screen and (max-width: 768px) { /*SP*/
   .p-hero {
     position: relative;
-    z-index: 0;
-    max-width: 100%;
+    z-index: 30;
+    width: 100%;
     height: 0;
-    padding-top: 10%;
-    padding-bottom: 66.36%;
+    padding-bottom: 75%;
   }
 }
 @media screen and (max-width: 376px) { /*SP*/
