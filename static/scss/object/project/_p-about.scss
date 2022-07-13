@@ -165,3 +165,60 @@
   }
 
 }
+@media screen and (max-width:375px) {/*タブレット*/
+  .p-about{
+    margin-right: 0.88%;
+    margin-left: 0.88%;
+  }
+
+  .c-title--about{
+    margin-bottom: 0;
+  }
+
+
+  .c-card__about__wrapper{/*カードを横並びに*/
+    display: flex;
+    flex-direction: column;
+    width: 71.32%;
+    margin-right: 0;
+    margin-left: 0;
+
+    border: solid red 1px;
+  }
+  .c-card__about:nth-of-type(2n) {//(Xn): X = 右端の列の倍数
+    margin-right: auto;
+  }
+
+
+
+    .c-card__about{
+      width: 100%;
+
+
+    background-color: #707070;
+    text-align: center;
+  }
+
+  .c-keyboad__jpg{
+    width: 100%;
+    opacity: 1;
+    border: solid red 1px;
+  }
+
+
+
+
+
+  .c-card__about:nth-child(1){/*カードを横並びに*/
+    margin-bottom: 24px;
+  }
+
+
+
+
+
+  .p-about__pic--me{
+    width: 34.93% ;
+  }
+
+}
