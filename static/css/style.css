@@ -420,7 +420,7 @@ h2 span::after {
 .video { /*背景に固定する*/
   position: fixed;
   z-index: -30;
-  top: 50%; /*%にしないとレスポンシブで高さがたりなくなる?*/
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /*縦横幅指定*/
@@ -434,70 +434,39 @@ h2 span::after {
   position: fixed;
   width: 100%;
   z-index: -10;
-  top: -136px; /*%にしないとレスポンシブで高さがたりなくなる?*/
+  top: -136px;
   width: 136%;
   height: 136%;
   opacity: 0.5; /*デザインは0.2*/
   background-color: black;
 }
 
-@media screen and (max-width: 1440px) { /*タブレット*/
+@media screen and (max-width: 768px) { /*スマホ*/
   .video { /*背景に固定する*/
     position: fixed;
     z-index: -30;
-    top: -1000px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: -1000px;
-    width: 300%;
-    height: 300%;
-  }
-}
-@media screen and (max-width: 1280px) { /*タブレット*/
-  .video { /*背景に固定する*/
-    position: fixed;
-    z-index: -30;
-    top: -1000px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: -1000px;
-    left: -1900px;
-    width: 400%;
-    height: 400%;
-  }
-}
-@media screen and (max-width: 678px) { /*タブレット*/
-  .video { /*背景に固定する*/
-    position: fixed;
-    z-index: -30;
-    top: -800px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: -1000px;
-    left: -1000px;
-    width: 390%;
-    height: 390%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 133.3333vh; /*ビューポート1024px*/
+    height: 75vw;
+    min-height: 100%;
+    min-width: 100%;
   }
 }
 @media screen and (max-width: 375px) { /*スマホ*/
-  .video__wrapper {
-    max-width: 100%;
-  }
   .video { /*背景に固定する*/
     position: fixed;
-    z-index: -20;
-    top: -500px; /*%にしないとレスポンシブで高さがたりなくなる?*/
-    right: -500px;
-    left: -500px;
-    width: 330%;
-    height: 330%;
-  }
-  .video__filter {
-    position: fixed;
-    width: 400%;
-    height: 400%;
-    z-index: -10;
-    top: 0x;
-    left: 0;
-    opacity: 0.7; /*デザインは0.2*/
-    background-color: black;
-    height: 336%;
-    background-color: black;
-    opacity: 0.2; /*デザインは0.2*/
+    z-index: -30;
+    top: 50%; /*%にしないとレスポンシブで高さがたりなくなる?*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 130.553vh;
+    height: 76.59vw;
+    min-height: 100%;
+    min-width: 100%;
   }
 }
 /*使用例.button { background-color: var.$colorGR;}*/
