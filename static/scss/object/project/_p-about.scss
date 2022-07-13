@@ -3,6 +3,8 @@
 /*テスト*//*テスト*//*テスト*/
 
 .p-about{
+  position:relative;
+  z-index: 30;
   max-width:100% ;
   margin-right: 260px;
   margin-left: 260px;

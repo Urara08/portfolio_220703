@@ -426,8 +426,8 @@ h2 span::after {
   /*縦横幅指定*/
   width: 130.553vh;
   height: 76.59vw;
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 200%;
+  min-width: 200%;
 }
 
 .video__filter {
@@ -435,8 +435,8 @@ h2 span::after {
   width: 100%;
   z-index: -10;
   top: -136px;
-  width: 136%;
-  height: 136%;
+  min-height: 200%;
+  min-width: 200%;
   opacity: 0.5; /*デザインは0.2*/
   background-color: black;
 }
@@ -484,7 +484,8 @@ h2 span::after {
   z-index: 30;
   display: flex;
   justify-content: center;
-  margin-top: 64px;
+  width: 100%;
+  margin-top: 153px;
 }
 
 .c-picture--top { /*白い枠--電球の写真*/
@@ -535,6 +536,7 @@ h2 span::after {
     z-index: 0;
     max-width: 100%;
     height: 0;
+    padding-top: 10%;
     padding-bottom: 66.36%;
   }
 }
@@ -578,6 +580,8 @@ h2 span::after {
 /*使用例.button { background-color: var.$colorGR;}*/
 /*テスト*/ /*テスト*/ /*テスト*/
 .p-about {
+  position: relative;
+  z-index: 30;
   max-width: 100%;
   margin-right: 260px;
   margin-left: 260px;

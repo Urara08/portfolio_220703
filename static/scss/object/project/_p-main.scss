@@ -26,20 +26,21 @@
   /*縦横幅指定*/
   width: 130.5530vh;
   height: 76.59vw;
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 200%;
+  min-width: 200%;
 }
 .video__filter{
   position: fixed;
   width: 100%;
   z-index: -10;
   top: -136px;
-  width: 136%;
-  height: 136%;
+  min-height: 200%;
+  min-width: 200%;
   opacity: 0.5;/*デザインは0.2*/
   background-color: black;
 
 }
+
 @media screen and (max-width:768px) {/*スマホ*/
   .video{/*背景に固定する*/
     position: fixed;
