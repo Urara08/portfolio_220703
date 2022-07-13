@@ -389,9 +389,6 @@ h2 span::after {
   }
 }
 @media screen and (max-width: 768px) { /*タブレット*/
-  .p-header__menus {
-    display: none;
-  }
   .p-header {
     position: fixed;
     display: flex;

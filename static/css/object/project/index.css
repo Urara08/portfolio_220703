@@ -151,7 +151,7 @@
   }
   /*ハンバーガーメニュー*/
   /*開いた後*/
-  .p-header__menus {
+  .p-header__menu {
     display: block;
     position: fixed;
     z-index: 30;
@@ -193,15 +193,12 @@
     color: #000000;
   }
   /* ボタンを押すとメニューが出る */
-  .p-header__menus.fade {
+  .p-header__menu.fade {
     visibility: visible;
     opacity: 1;
   }
 }
 @media screen and (max-width: 768px) { /*タブレット*/
-  .p-header__menus {
-    display: none;
-  }
   .p-header {
     position: fixed;
     display: flex;
@@ -222,9 +219,6 @@
     padding-bottom: 23.125%;
     overflow: hidden;
     box-sizing: border-box;
-  }
-  .p-header__menu {
-    display: none;
   }
   .p-header__title {
     width: auto;
