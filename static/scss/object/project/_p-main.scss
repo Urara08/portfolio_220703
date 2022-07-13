@@ -53,23 +53,20 @@
     min-height: 100%;
     min-width: 100%;
   }
-
-
-
 }
 
 @media screen and (max-width:375px) {/*スマホ*/
   .video{/*背景に固定する*/
     position: fixed;
     z-index: -30;
-    top:  50%;/*%にしないとレスポンシブで高さがたりなくなる?*/
+    top:  50%;
     left: 50%;
     transform: translate(-50%, -50%);
     /*縦横幅指定*/
-    width: 130.5530vh;
-    height: 76.59vw;
-    min-height: 100%;
-    min-width: 100%;
+    width: 216.5333vh;/*ビューポート812px*/
+    height: 46.1822vw;
+    min-height: 200%;
+    min-width: 200%;
   }
 
 

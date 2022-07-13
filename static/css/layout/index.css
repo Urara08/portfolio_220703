@@ -4,10 +4,11 @@
 }
 
 .l-header {
-  position: relative;
   width: 100%;
-  z-index: 20;
+  padding-top: 40px;
+  padding-bottom: 40.4px;
   background-color: #FEDA1C;
+  box-sizing: border-box;
 }
 
 .l-about {
