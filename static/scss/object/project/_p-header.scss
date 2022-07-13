@@ -71,9 +71,7 @@ border-left: 1px solid #707070;
 
 @media screen and (max-width:1280px) {/*タブレット*/
 
-  .p-header__menu{//メニューは隠す
-    display: none;
-  }
+
 
   .p-header{
     position: fixed;
@@ -144,18 +142,26 @@ transition: transform .3s;
 /*ハンバーガーメニュー*/
 /*開いた後*/
 .p-header__menu{
-  /* visibility: hidden; */
-  /* opacity: 0; */
+  display: block;
+
   position: fixed;
   z-index: 30;
-
+  right: -1000vw;
   width: 100%;
 
   top:117px;
   left: 0;
-  transition: all .5s;
+
   border: solid 1px rgb(255, 255, 255, 1)  ;
   background-color: #FEDA1C;
+  transition: transform .3s;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+.p-header__menu.slide-in {
+	transform: translateX(0);
 }
 
 .p-header__menu__list{
@@ -189,11 +195,13 @@ transition: transform .3s;
   color: #000000;
 }
 
-/* メニューオープン時 */
-.p-header__menu.fade {
+/* ボタンを押すとメニューが出る */
+.p-header__menu.fade{
 	visibility: visible;
 	opacity: 1;
 }
+
+
 
 
 
@@ -201,9 +209,7 @@ transition: transform .3s;
 @media screen and (max-width:768px) {/*タブレット*/
 
 
-  .p-header__menu{//スマホ版は隠す
-   display: none;
-  }
+
   .p-header{
     position: fixed;
     display: flex;
@@ -230,9 +236,7 @@ transition: transform .3s;
     box-sizing: border-box;
   }
 
-  .p-header__menu{//メニューは隠す
-    display: none;
-  }
+
 
   .p-header__title{
     width: auto;

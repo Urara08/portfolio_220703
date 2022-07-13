@@ -12,6 +12,7 @@ topBtn.click(function(){
 $(function () {
   $('.burger-btn').on('click', function () {
     $('.burger-btn').toggleClass('close');
-    $('.nav-wrapper').toggleClass('fade');
-  });
+    $('.p-header__menu').toggleClass('fade');
+    $('body').toggleClass('noscroll'); // 追記
+  })
 });
