@@ -41,8 +41,12 @@
           <!--ビデオここから-->
           <div class="video__wrapper">
           <video controls muted autoplay playsinline loop poster="./img/歯車0.jpg" class="video"
-          webkit-playsinline playsinline muted autoplay
-          src="./img/back-video.mp4"></video>
+          webkit-playsinline playsinline muted autoplay>
+          <source src="./img/back-video.mp4" type="video/mp4">
+          <source src="./img/back-video.ogv" type="video/ogv">
+          <source src="./img/back-video.webm" type="video/webm">
+          <p>動画を再生できる環境ではありません。</p>
+        </video>
           <div class="video__filter"></div>
           </div>
           <div class="l-hero">
