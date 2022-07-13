@@ -16,3 +16,8 @@ $(function () {
     $('body').toggleClass('noscroll'); // 追記
   })
 });
+
+$(window).on('resize', function () {//画面をリサイズすると
+  $('.p-header__menu').removeClass('fade');
+  $('.burger-btn').removeClass('close');
+});
