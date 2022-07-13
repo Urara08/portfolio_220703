@@ -48,14 +48,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     /*縦横幅指定*/
-    width: 133.3333vh;/*ビューポート1024px*/
+    width: 199.9999vh;/*ビューポート1024px*/
     height: 75vw;
-    min-height: 100%;
-    min-width: 100%;
+    min-height: 200%;
+    min-width: 200%;
   }
 }
 
-@media screen and (max-width:375px) {/*スマホ*/
+@media screen and (max-width:376px) {/*スマホ*/
   .video{/*背景に固定する*/
     position: fixed;
     z-index: -30;
