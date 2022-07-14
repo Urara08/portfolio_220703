@@ -12,12 +12,12 @@ topBtn.click(function(){
 $(function () {
   $('.burger-btn').on('click', function () {
     $('.burger-btn').toggleClass('close');
-    $('.p-header__menu').toggleClass('fade');
+    $('.p-header__menu').toggleClass('open');
     $('body').toggleClass('noscroll'); // 追記
   })
 });
 
 $(window).on('resize', function () {//画面をリサイズすると
-  $('.p-header__menu').removeClass('fade');
+  $('.p-header__menu').removeClass('open');
   $('.burger-btn').removeClass('close');
 });

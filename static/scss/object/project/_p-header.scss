@@ -196,7 +196,7 @@ transition: transform .3s;
 }
 
 /* ボタンを押すとメニューが出る */
-.p-header__menu.fade{
+.p-header__menu.open{
 	visibility: visible;
 
 	opacity: 1;

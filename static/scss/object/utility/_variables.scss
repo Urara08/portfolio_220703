@@ -4,11 +4,16 @@ $colorGR: #2ab733; /* テスト */
 
 /** アニメーション ------------ **/
 /* ふわっと出る*/
-@keyframes fade{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
+.fadein-out{
+  animation-name: smooth-fadein-out;/*アニメの命名*/
+  animation-duration: 1.5s;/*持続時間は1.5秒*/
+  animation-timing-function: ease;/*後半でゆっくりに*/
+  animation-delay: 0s;/*開始されるまでの遅延はなし*/
+  animation-iteration-count:1;/*回数*/
+
+}
+
+@keyframes smooth-fadein-out {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
