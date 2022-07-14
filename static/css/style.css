@@ -1085,11 +1085,11 @@ h2 span::after {
   position: relative;
   z-index: 10;
   max-width: 100%;
-  min-width: 320px; /*フォームの担保したい幅*/
+  min-width: 320px; /*フォームの最低限 担保したい幅*/
   margin-right: 18.05%;
   margin-left: 18.05%;
-  padding-top: 80px;
-  padding-bottom: 80px; /*ボタン〜フッター*/
+  padding-top: 80px; /*セクションタイトルから上部までの距離*/
+  padding-bottom: 80px; /*ボタン〜フッターの距離*/
 }
 
 .contact-table {
@@ -1159,10 +1159,6 @@ input.form-text {
 textarea.form-textarea {
   width: 88.54%;
   height: 240px;
-}
-
-.contact-item:nth-child(4) {
-  border: solid red 1px;
 }
 
 @media screen and (max-width: 1200px) { /*タブレット*/
