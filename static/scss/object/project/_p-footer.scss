@@ -13,10 +13,26 @@
 
 .p-footer__title{
   margin: auto;
-  width: 6.04%;
+  width: 8.15%;
+  border: solid red 1px;
 }
 
 .p-footer__title--logo__png{
-  width: auto;
-  height: 37px;
+  width: 100%;
+}
+
+@media screen and (max-width:768px) {/*タブレット*/
+  .p-footer__title{
+    margin: auto;
+    width: 15.29%;
+    border: solid red 1px;
+  }
+}
+
+@media screen and (max-width:768px) {/*SP*/
+  .p-footer__title{
+    margin: auto;
+    width: 31.33%;
+    border: solid red 1px;
+  }
 }
