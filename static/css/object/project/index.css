@@ -895,8 +895,10 @@
 .p-contact {
   position: relative;
   z-index: 10;
-  margin-right: 260px;
-  margin-left: 260px;
+  max-width: 100%;
+  min-width: 320px; /*フォームの担保したい幅*/
+  margin-right: 18.05%;
+  margin-left: 18.05%;
   padding-top: 80px;
   padding-bottom: 80px; /*ボタン〜フッター*/
 }
@@ -906,6 +908,7 @@
   margin: auto;
   margin-bottom: 80px;
   background-color: #FFFFFF;
+  border: solid red 1px;
 }
 
 .c-title--contact {
@@ -985,7 +988,7 @@ textarea.form-textarea {
     margin-left: 144px;
   }
   .contact-table {
-    width: 100%;
+    width: 86.3%;
     margin-bottom: 80px;
     background-color: #FFFFFF;
   }
@@ -995,10 +998,11 @@ textarea.form-textarea {
     width: 100%;
     margin-right: 9.3%;
     margin-left: 9.3%;
-    border: solid red 1px;
   }
   .contact-table {
     width: 100%;
+    margin-right: 9.3%;
+    margin-left: 9.3%;
     margin-bottom: 80px; /*本体〜ボタン*/
     background-color: #FFFFFF;
   }
