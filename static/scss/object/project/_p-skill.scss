@@ -81,7 +81,7 @@
 .cardText__dis {/*自由内容*/
 
   font-family: 'Kaisei Tokumin', serif;
-  font-size: 16px;
+  font-size: 1.11vw;
   line-height: 1.75;
   color: #000000;
 	margin-bottom: 0;
@@ -112,19 +112,23 @@
   /*cardが縦に伸びすぎないように1200pxで調整*/
   .p-skill{
     position: relative;
-    margin-right: 18.75%;
-    margin-left: 18.75%;
+    margin-right: 6.51%;
+    margin-left: 6.51%;
   }
 
 
   .p-skill__wrapper{
     display: flex;
     flex-flow:column;
-    margin: auto;
-    width: 100%;
-
-
+    margin-right: 14.22%;
+    margin-left: 14.22%;
+    width: 71.11%;
   }
+
+  .c-title--skill{
+    margin-left: 0%;
+  }
+
   .cardBox:nth-of-type(3n) {//(Xn): X = 右端の列の倍数
     margin-right: auto;
   }
