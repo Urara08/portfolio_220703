@@ -1032,6 +1032,7 @@ h2 span::after {
 }
 
 .cardInner { /*真っ白の部分*/
+  display: block;
   background-color: rgb(255, 255, 255);
   padding: 8px 0px 8px;
   box-sizing: border-box;
@@ -1050,6 +1051,11 @@ h2 span::after {
     margin-right: 14.22%;
     margin-left: 14.22%;
     width: 71.11%;
+  }
+  .cardInner { /*真っ白の部分*/ }
+  .cardInner--up {
+    display: flex;
+    border: solid red 1px;
   }
   .c-title--skill {
     margin-left: 0%;
