@@ -832,7 +832,6 @@
 
 .cardText { /*期間・時間・自由内容の枠*/
   margin: auto 8px;
-  border: solid red 1px;
 }
 
 .cardBox {
@@ -859,14 +858,8 @@
   .p-skill__wrapper {
     display: flex;
     flex-flow: column;
-    margin-right: 14.22%;
-    margin-left: 14.22%;
-    width: 71.11%;
-  }
-  .cardInner { /*真っ白の部分*/ }
-  .cardInner--up {
-    display: flex;
-    border: solid red 1px;
+    justify-content: center;
+    width: 72%;
   }
   .c-title--skill {
     margin-left: 0%;
@@ -875,9 +868,11 @@
     margin-right: auto;
   }
   .cardBox {
-    width: 100%;
+    width: 91.25%;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 50px;
-    padding: 24px 40px 24px;
+    padding: 6.89% 8.62%;
     box-sizing: border-box;
   }
   .cardBox:last-child {
@@ -888,12 +883,39 @@
     font-size: 2.08vw;
     font-weight: bold;
     line-height: 1.5;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
+  }
+  .cardText__title { /*期間と時間*/
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .cardText__dis { /*自由内容*/
+    width: 96.35%;
+    font-family: "Kaisei Tokumin", serif;
+    font-size: 1.11vw;
+    line-height: 1.75;
+    color: #000000;
+    margin: auto;
+    margin-bottom: 0;
+    padding-right: 8px;
+    padding-left: 8px;
+    border: solid rgb(31, 10, 94) 1px;
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1200px) and (max-width: 768px) { /*タブレット*/
   .c-title--skill {
     line-height: 1.75;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .cardBox {
+    width: 100%;
+    margin-bottom: 4 0px;
+    padding: 6.89% 8.62%;
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -916,6 +938,22 @@
     font-size: 1.1vw;
     font-weight: bold;
     line-height: 1.5;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .cardText__title:nth-of-type(2n) { /*期間と時間の下余白*/
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 375px) { /*タブレット*/
+  .cardBox {
+    width: 100%;
+    margin-bottom: 4 0px;
+    padding: 10.25% 7.01%;
+    box-sizing: border-box;
+  }
+  .cardText__title:nth-of-type(2n) { /*期間と時間の下余白*/
     margin-bottom: 8px;
   }
 }
