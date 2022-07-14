@@ -23,6 +23,12 @@
   /*margin-topをつけると下の要素が重なる*/
   /*margin-bottomでは下に余白ができない*/
 
+
+
+animation-name: fade;
+animation-duration: 1s;
+animation-iteration-count: 5;
+
   box-sizing: border-box;
 }
 

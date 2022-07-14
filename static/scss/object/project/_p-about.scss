@@ -1,6 +1,4 @@
 @use '../utility' as var;
-/*使用例.button { background-color: var.$colorGR;}*/
-/*テスト*//*テスト*//*テスト*/
 
 .p-about{
   position:relative;
@@ -51,6 +49,9 @@
   margin-right: 14.28%;
   background-color: #707070;
   text-align: center;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-iteration-count: 5;
   box-sizing: border-box;
 }
 
@@ -99,6 +100,9 @@
   width: 15.76% ;
   margin: auto;
   margin-top: 64px;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-iteration-count: 5;
 }
 
 .c-card__about__wrapper{/*カードを横並びに*/
@@ -198,6 +202,12 @@
 
     background-color: #707070;
     text-align: center;
+
+
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 5;
+
   }
 
   .c-keyboad__jpg{

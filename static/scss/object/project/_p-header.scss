@@ -35,9 +35,11 @@
   width: 487.96px;
   margin-top: 5.5px;
   margin-right: 260px;
+
   border: solid red 1px;
   box-sizing: border-box ;
 }
+
 
 .p-header__menu__list{
   display:  flex;
@@ -133,7 +135,7 @@ border-left: 1px solid #707070;
 }
 .burger-btn.close .bar_mid{
   opacity: 0;
-  transition: opacity .3s;
+  transition: transform .5s;
 }
 .burger-btn.close .bar_bottom{
 transform: translate(-50%,-8px) rotate(-45deg);
@@ -146,7 +148,7 @@ transition: transform .3s;
 
   position: fixed;
   z-index: 30;
-  right: -1000vw;
+
   width: 100%;
 
   top:117px;
@@ -154,15 +156,13 @@ transition: transform .3s;
 
   border: solid 1px rgb(255, 255, 255, 1)  ;
   background-color: #FEDA1C;
-  transition: transform .3s;
+  transition: transform .5s;
   visibility: hidden;
   opacity: 0;
 
 }
 
-.p-header__menu.slide-in {
-	transform: translateX(0);
-}
+
 
 .p-header__menu__list{
   display:  flex;
@@ -198,6 +198,7 @@ transition: transform .3s;
 /* ボタンを押すとメニューが出る */
 .p-header__menu.fade{
 	visibility: visible;
+
 	opacity: 1;
 }
 
