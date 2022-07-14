@@ -879,7 +879,7 @@
   }
   .cardText__title { /*期間と時間*/
     margin-left: 0;
-    font-size: 16px;
+    font-size: 1.11vw;
     line-height: 1.5;
     text-align: center;
   }
