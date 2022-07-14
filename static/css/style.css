@@ -1078,7 +1078,7 @@ h2 span::after {
   margin-right: 260px;
   margin-left: 260px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 80px; /*ボタン〜フッター*/
 }
 
 .contact-table {
@@ -1173,7 +1173,7 @@ textarea.form-textarea {
   }
   .contact-table {
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 80px; /*本体〜ボタン*/
     background-color: #FFFFFF;
   }
 }
