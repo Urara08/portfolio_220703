@@ -957,6 +957,19 @@ textarea.form-textarea {
     background-color: #FFFFFF;
   }
 }
+@media screen and (max-width: 375px) { /*タブレット*/
+  .p-contact {
+    width: 100%;
+    margin-right: 35px;
+    margin-left: 35px;
+    border: solid red 1px;
+  }
+  .contact-table {
+    width: 100%;
+    margin-bottom: 80px;
+    background-color: #FFFFFF;
+  }
+}
 /*使用例.button { background-color: var.$colorGR;}*/
 .p-footer {
   position: relative;
