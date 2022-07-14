@@ -926,6 +926,7 @@
   background-color: #FEDA1C;
   font-family: "Kaisei Tokumin", serif;
   font-weight: normal;
+  box-sizing: border-box;
 }
 
 .contact-item,
@@ -936,17 +937,21 @@
 
 .contact-body {
   width: 63%;
+  height: 80px;
 }
 
 .contact-body {
   width: 100%;
-  padding: 20px;
-  text-align: left;
+  padding: 16px 6.25%;
+  text-align: center;
+  vertical-align: middle;
   background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
 }
 
 input.form-text {
   width: 88.54%;
+  height: 48px;
 }
 
 textarea.form-textarea {
