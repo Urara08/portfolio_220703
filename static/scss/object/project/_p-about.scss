@@ -47,7 +47,8 @@
 .c-card__about{
   width: 39.13%;
   margin-right: 14.28%;
-  background-color: #707070;
+
+  background-color: rgb(112, 112, 112, 0.6);/*#707070;*/
   text-align: center;
 
   box-sizing: border-box;
@@ -67,16 +68,17 @@
 .c-copy{
   width: 60%;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 21px;
+  padding-bottom: 19px;
 
   font-family: 'Kaisei Tokumin', serif;
   font-weight:bold;
-  font-size: 1.11px;
+  font-size: 16px;
   color: #ffffff;
   line-height: 1.5;
 
   opacity: 1;
+  box-sizing: border-box;
 }
 
 .c-information__wrapper{
@@ -98,7 +100,7 @@
   width: 15.76% ;
   margin: auto;
   margin-top: 64px;
-
+  opacity: 1;
 }
 
 .c-card__about__wrapper{/*カードを横並びに*/
@@ -139,7 +141,7 @@
       width: 100%;
 
 
-    background-color: #707070;
+      background-color: rgb(112, 112, 112, 0.6);/*#707070;*/
     text-align: center;
   }
 

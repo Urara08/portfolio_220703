@@ -161,7 +161,9 @@ transition: transform .3s;
   opacity: 0;
 
 }
-
+.p-header__menu__item:last-child{
+  border-right: none;
+}
 
 
 .p-header__menu__list{

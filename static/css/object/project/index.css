@@ -182,6 +182,9 @@
     visibility: hidden;
     opacity: 0;
   }
+  .p-header__menu__item:last-child {
+    border-right: none;
+  }
   .p-header__menu__list {
     display: flex;
     position: relative;
@@ -347,7 +350,7 @@
   width: 63.88%;
   height: 0;
   padding-bottom: 42%;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8); /*#ffffff*/
 }
 
 .c-light__jpg { /*電球の写真本体*/
@@ -527,7 +530,7 @@
 .c-card__about {
   width: 39.13%;
   margin-right: 14.28%;
-  background-color: #707070;
+  background-color: rgba(112, 112, 112, 0.6); /*#707070;*/
   text-align: center;
   box-sizing: border-box;
 }
@@ -545,14 +548,15 @@
 .c-copy {
   width: 60%;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 21px;
+  padding-bottom: 19px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: bold;
-  font-size: 1.11px;
+  font-size: 16px;
   color: #ffffff;
   line-height: 1.5;
   opacity: 1;
+  box-sizing: border-box;
 }
 
 .c-information__wrapper {
@@ -574,6 +578,7 @@
   width: 15.76%;
   margin: auto;
   margin-top: 64px;
+  opacity: 1;
 }
 
 .c-card__about__wrapper { /*カードを横並びに*/
@@ -605,7 +610,7 @@
   }
   .c-card__about {
     width: 100%;
-    background-color: #707070;
+    background-color: rgba(112, 112, 112, 0.6); /*#707070;*/
     text-align: center;
   }
   .c-keyboad__jpg {
@@ -769,7 +774,7 @@
   width: 31.7%; /*ここにmin-widthは意味がない*/
   margin-right: 2.43%;
   margin-bottom: 24px;
-  background-color: rgb(248, 249, 250);
+  background-color: rgb(248, 249, 250); /*#F8F9FA;*/
   box-sizing: border-box;
 }
 
@@ -783,16 +788,17 @@
   margin-right: 0;
 }
 
-.cardTtl {
+.cardTtl { /*ツール名*/
   text-align: center;
   font-family: "Josefin Sans", ital;
   font-size: 1.1vw;
   font-weight: bold;
   line-height: 1.5;
-  margin-bottom: 16px;
+  color: #000000;
+  margin-bottom: 8px;
 }
 
-.cardText__title {
+.cardText__title { /*期間と時間*/
   text-align: center;
   font-family: "Kaisei Tokumin", serif;
   font-size: 16px;
@@ -800,11 +806,11 @@
   color: #000000;
 }
 
-.cardText__title:nth-of-type(2n) {
-  margin-bottom: 5px;
+.cardText__title:nth-of-type(2n) { /*期間と時間の下余白*/
+  margin-bottom: 16px;
 }
 
-.cardText__dis {
+.cardText__dis { /*自由内容*/
   font-family: "Kaisei Tokumin", serif;
   font-size: 16px;
   line-height: 1.75;
@@ -812,22 +818,21 @@
   margin-bottom: 0;
 }
 
-.cardText {
-  margin: auto 5px;
+.cardText { /*期間・時間・自由内容の枠*/
+  margin: auto 8px;
+  border: solid red 1px;
 }
 
 .cardBox {
   position: relative;
-  padding: 32px;
-  border: 2px solid #333333;
-  border-radius: 5px;
+  padding: 32px; /*色付きの枠の幅・縦*/
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
 }
 
-.cardInner {
+.cardInner { /*真っ白の部分*/
   background-color: rgb(255, 255, 255);
-  padding: 5px 10px 5px;
+  padding: 8px 0px 8px;
   box-sizing: border-box;
 }
 

@@ -38,7 +38,7 @@
   width: 31.7%;/*ここにmin-widthは意味がない*/
   margin-right: 2.43%;
   margin-bottom: 24px;
-  background-color: rgb(248, 249, 250, 1);
+  background-color: rgb(248, 249, 250, 1);/*#F8F9FA;*/
 
   box-sizing: border-box;
 }
@@ -57,27 +57,28 @@
 
 
 
-.cardTtl {
+.cardTtl {/*ツール名*/
 	text-align: center;
   font-family: "Josefin Sans" ,ital ;
 	font-size: 1.1vw;
 	font-weight: bold;
 	line-height: 1.5;
-	margin-bottom: 16px;
+  color: #000000;
+	margin-bottom: 8px;
 }
-.cardText__title{
+.cardText__title{/*期間と時間*/
   text-align: center;
   font-family: 'Kaisei Tokumin', serif;
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
 }
-.cardText__title:nth-of-type(2n) {//(Xn): X = 右端の列の倍数
-  margin-bottom: 5px;
+.cardText__title:nth-of-type(2n) {/*期間と時間の下余白*/
+  margin-bottom: 16px;
 }
 
 
-.cardText__dis {
+.cardText__dis {/*自由内容*/
 
   font-family: 'Kaisei Tokumin', serif;
   font-size: 16px;
@@ -86,23 +87,22 @@
 	margin-bottom: 0;
 }
 
-.cardText {
-  margin: auto 5px ;
+.cardText {/*期間・時間・自由内容の枠*/
+  margin: auto 8px ;
+  border: solid red 1px;
 }
 
 
 .cardBox {
 	position: relative;
-	padding: 32px;
-	border: 2px solid #333333;
-	border-radius: 5px;
+	padding: 32px;/*色付きの枠の幅・縦*/
 	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
 }
 
-.cardInner{
-  background-color: rgb(255, 255, 255);
-  padding: 5px 10px 5px;
+.cardInner{/*真っ白の部分*/
+  background-color: rgb(255, 255, 255,1);
+  padding: 8px 0px 8px;
   box-sizing: border-box;
 }
 
