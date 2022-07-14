@@ -168,6 +168,13 @@
   }
 
 }
+
+@media screen and (max-width:768px) {/*タブレット*/
+.c-title--about{
+  font-size: 32px;
+  line-height: 1.75;
+}
+}
 @media screen and (max-width:375px) {/*タブレット*/
   .p-about{
     margin-right: 0.88%;

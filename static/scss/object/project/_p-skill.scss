@@ -153,7 +153,11 @@
 	margin-bottom: 16px;
 }
 
-
+@media screen and (max-width:768px) {/*タブレット*/
+  .c-title--skill{
+    line-height: 1.75;
+  }
+  }
 
 
 

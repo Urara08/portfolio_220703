@@ -68,6 +68,11 @@
 
   }
 }
+@media screen and (max-width:768px) {/*タブレット*/
+  .c-title--product{
+    line-height: 1.75;
+  }
+  }
 
 @media screen and (max-width:375px) {/*タブレット*/
   .p-product__wrapper{
