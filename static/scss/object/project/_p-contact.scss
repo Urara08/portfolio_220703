@@ -88,6 +88,14 @@ textarea.form-textarea{
 .contact-item:nth-child(4){
   border: solid red 1px;
 }
+@media screen and (max-width:1200px) {/*タブレット*/
+  .p-contact{
+    margin-right: 6.25%;
+    margin-left: 6.25%;
+  }
+
+
+  }
 @media screen and (max-width:768px) {/*タブレット*/
 .p-contact{
   margin-right: 144px;
@@ -103,9 +111,9 @@ textarea.form-textarea{
 }
 @media screen and (max-width:375px) {/*タブレット*/
   .p-contact{
-      width: 100%;
-    margin-right: 35px;
-    margin-left: 35px;
+    width: 100%;
+    margin-right: 9.3%;
+    margin-left: 9.3%;
     border: solid red 1px;
   }
 
