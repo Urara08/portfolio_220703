@@ -39,10 +39,12 @@
 .c-light__jpg{/*電球の写真本体*/
   position: absolute;
   width: 91.3%;
-  top:  30px;
-  left:  4.3% ;/*真ん中に配置*/
-  right: 4.3% ;
-  bottom:  30px;
+  top:  50% ;/*真ん中に配置*/
+  left:  50% ;
+  transform:  translate(-50%, -50%) ;/*真ん中に配置*/
+  -webkit-transform:  translate(-50%, -50%) ;
+  -ms-transform:  translate(-50%, -50%) ;
+
 }
 
 
@@ -72,14 +74,14 @@
 
   }
   .c-light__jpg{/*電球の写真本体*/
-    position: relative;
+    position: absolute;
     z-index: 40;
     width: 91.3%;
 
     top:  18px;
     left:  4.3% ;/*真ん中に配置*/
     right: 4.3% ;
-    bottom:  18px;
+
   }
 
 
@@ -116,14 +118,15 @@
   }
 
   .c-light__jpg{/*電球の写真本体*/
-    position: relative;
+    position: absolute;
     z-index: 40;
     width: 91.3%;
 
-    top:  16px;
-    left:  4.3% ;/*真ん中に配置*/
-    right: 4.3% ;
-    bottom:  16px;
+    top:  50% ;/*真ん中に配置*/
+    left:  50% ;
+    transform:  translate(-50%, -50%) ;/*真ん中に配置*/
+    -webkit-transform:  translate(-50%, -50%) ;
+    -ms-transform:  translate(-50%, -50%) ;
   }
 
   .c-copy--1{/*わかりやすいデザインをめざしています*/
@@ -174,13 +177,14 @@
 }
 
 .c-light__jpg{/*電球の写真本体*/
-  position: relative;
+  position: absolute;
   z-index: 40;
   width: 91.61%;/*284px*/
-  top:   15px;
-  left: 3.73%;
-  right: 3.73%;
-  bottom:   15px;
+  top:  50% ;/*真ん中に配置*/
+  left:  50% ;
+  transform:  translate(-50%, -50%) ;/*真ん中に配置*/
+  -webkit-transform:  translate(-50%, -50%) ;
+  -ms-transform:  translate(-50%, -50%) ;
 }
 
 .p-hero__single{
