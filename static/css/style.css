@@ -1115,7 +1115,7 @@ h2 span::after {
   width: 37%;
   background-color: #FEDA1C;
   font-family: "Kaisei Tokumin", serif;
-  font-weight: normal;
+  font-weight: bold;
   box-sizing: border-box;
 }
 
