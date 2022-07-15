@@ -144,50 +144,6 @@ button {
   z-index: 10;
 }
 
-h1 {
-  color: blue;
-}
-h1 span {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-h1 span::before, h1 span::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 2px;
-  background-color: green;
-}
-h1 span::before {
-  transform: rotate(45deg);
-}
-h1 span::after {
-  transform: rotate(-45deg);
-}
-
-h2 {
-  color: rgb(255, 38, 0);
-}
-h2 span {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-h2 span::before, h2 span::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 2px;
-  background-color: green;
-}
-h2 span::before {
-  transform: rotate(45deg);
-}
-h2 span::after {
-  transform: rotate(-45deg);
-}
-
 /** 色の変数 ------------ **/
 /* テスト */
 /** アニメーション ------------ **/
@@ -1295,7 +1251,7 @@ textarea.form-textarea {
 }
 
 .c-title--details {
-  margin-bottom: 80px;
+  margin-bottom: 64px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: 800;
   font-size: 40px;
@@ -1304,7 +1260,6 @@ textarea.form-textarea {
 }
 
 .c-sub-title--details {
-  margin-bottom: 24px;
   font-family: "Kaisei Tokumin", serif;
   font-weight: 800;
   font-size: 24px;
@@ -1353,6 +1308,7 @@ textarea.form-textarea {
   position: relative;
   z-index: 0;
   width: 100%;
+  margin-top: 24px;
   margin-bottom: 56px;
   opacity: 1;
 }
@@ -1405,17 +1361,17 @@ textarea.form-textarea {
     box-sizing: border-box;
   }
   .c-title--details {
-    margin-bottom: 0;
+    margin-bottom: 64px;
     font-family: "Kaisei Tokumin", serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 32px;
     color: rgb(255, 255, 255);
-    line-height: 1.5;
+    line-height: 1.75;
   }
   .c-sub-title--details {
-    margin-bottom: 24px;
+    margin-bottom: 24px; /*サブタイトルとテキストとの距離*/
     font-family: "Kaisei Tokumin", serif;
-    font-weight: 800;
+    font-weight: normal;
     font-size: 24px;
     color: rgb(255, 255, 255);
     line-height: 1.75;
@@ -1458,6 +1414,7 @@ textarea.form-textarea {
     position: relative;
     z-index: 0;
     width: 100%;
+    margin-top: 24px;
     margin-bottom: 56px;
     opacity: 1;
   }
@@ -1467,6 +1424,7 @@ textarea.form-textarea {
     font-family: "Kaisei Tokumin", serif;
     color: rgb(255, 255, 255);
     line-height: 1.75;
+    border: solid red 1px;
   }
   .c-dli-caret-right {
     display: inline-block;
